@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yuliani Purwitasari – Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    
+</head>
+
+<body>
+
+    <!-- Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- Ambient blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+        <div class="nav-logo">Sari's Portofolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#experience">Experiences</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home" onclick="closeMobile()">Home</a>
+        <a href="#about" onclick="closeMobile()">About</a>
+        <a href="#experience" onclick="closeMobile()">Experience</a>
+        <a href="#achievements" onclick="closeMobile()">Achievements</a>
+        <a href="#skills" onclick="closeMobile()">Skills</a>
+        <a href="#projects" onclick="closeMobile()">Projects</a>
+        <a href="#contact" onclick="closeMobile()">Contact</a>
+    </div>
+
+    <!-- HOME -->
+    <section id="home">
+        <div class="hero-inner">
+            <div class="hero-content">
+                <div class="hero-tag"><span class="dot"></span> Available for opportunities</div>
+                <h1 class="hero-name">
+                    <span class="grad-text">Yuliani</span><br>Purwitasari
+                </h1>
+                <div class="hero-roles">
+                    <span class="hero-role">Data Scientist</span>
+                    <span class="hero-role">Data Analyst</span>
+                    <span class="hero-role">Software Developer</span>
+                </div>
+                <p class="hero-bio">
+                    Fresh Graduate in Information Systems from UPN "Veteran" Jawa Timur. Passionate about turning data
+                    into insights and building meaningful digital solutions. Distinction Graduate & Best Graduate of ML
+                    Path at Bangkit Academy 2024.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-primary"><i class="fas fa-rocket"></i> View Projects</a>
+                    <a href="#contact" class="btn-outline"><i class="fas fa-paper-plane"></i> Contact Me</a>
+                </div>
+                <div class="hero-socials">
+                    <a href="mailto:yulianipurwitasari19@gmail.com" class="social-link" title="Email"><i
+                            class="fas fa-envelope"></i></a>
+                    <a href="https://linkedin.com/in/yuliani-purwitasari" class="social-link" target="_blank"
+                        title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/ririsariii" class="social-link" target="_blank" title="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://instagram.com/ririsariii" class="social-link" target="_blank" title="Instagram"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+                <div class="hero-stats" style="margin-top:2rem;">
+                    <div class="stat">
+                        <div class="stat-num">3.87</div>
+                        <div class="stat-label">GPA</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-num">9+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-num">3</div>
+                        <div class="stat-label">Awards</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-num">3.5y</div>
+                        <div class="stat-label">Study</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-avatar-wrap">
+                <div class="avatar-glow"></div>
+
+                <div class="avatar-ring">
+                    <div class="avatar-inner">
+                        <img src="assets/profilephoto.jpg" alt="Profile Photo" class="profile-photo">
+                    </div>
+                </div>
+            </div>
+            <div class="avatar-badge">
+                <div class="badge-icon">🏆</div>
+                <div>
+                    <div style="font-size:0.78rem;font-weight:700;">Distinction Graduate</div>
+                    <div style="font-size:0.68rem;color:var(--muted);">Bangkit Academy 2024</div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div style="max-width:1100px;margin:0 auto;">
+            <div class="section-label">About Me</div>
+            <h2 class="section-title">Who I <span class="grad-text">Am</span></h2>
+            <div class="section-divider"></div>
+            <div class="about-grid reveal">
+                <div>
+                    <div class="about-card" style="margin-bottom:1.5rem;">
+                        <p class="about-text">
+                            I'm a fresh graduate in Information Systems from UPN "Veteran" Jawa Timur with a strong
+                            interest in Data Analytics, Business Intelligence, Data Science, and Web Development.
+                            Experienced in developing data-driven solutions, interactive dashboards, and web-based
+                            systems through academic and professional projects.
+                        </p>
+                        <p class="about-text" style="margin-top:1rem;">
+                            Proficient in Python, SQL, PHP, and data visualization tools such as Looker Studio.
+                            Recognized as a Distinction Graduate and Best Graduate of Machine Learning Path at Bangkit
+                            Academy 2024 Batch 2. A fast learner with strong problem-solving, leadership, teamwork, and
+                            adaptability skills.
+                        </p>
+                        <div class="info-grid">
+                            <div class="info-item"><i class="fas fa-map-marker-alt"></i> Trenggalek, East Java</div>
+                            <div class="info-item"><i class="fas fa-envelope"></i> yulianipurwitasari19@gmail.com</div>
+                            <div class="info-item"><i class="fab fa-github"></i> github.com/ririsariii</div>
+                            <div class="info-item"><i class="fab fa-linkedin"></i> yuliani-purwitasari</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="about-card">
+                        <div class="section-label" style="margin-bottom:1rem;">Education</div>
+                        <div class="edu-item">
+                            <div class="edu-icon">🎓</div>
+                            <div>
+                                <div class="edu-title">UPN "Veteran" Jawa Timur</div>
+                                <div class="edu-sub">Bachelor of Computer Science – Information Systems</div>
+                                <div class="edu-sub" style="margin-top:4px;"><span
+                                        style="color:var(--pink-light);font-weight:600;">GPA: 3.87</span> &nbsp;·&nbsp;
+                                    3 Years 6 Months &nbsp;·&nbsp; Distinction</div>
+                            </div>
+                        </div>
+                        <div class="edu-item">
+                            <div class="edu-icon">🤖</div>
+                            <div>
+                                <div class="edu-title">Bangkit Academy 2024 Batch 2</div>
+                                <div class="edu-sub">Machine Learning Path – Led by Google, Tokopedia, Gojek & Traveloka
+                                </div>
+                                <div class="edu-sub" style="margin-top:4px;"><span
+                                        style="color:var(--pink-light);font-weight:600;">Score: 96.8</span>
+                                    &nbsp;·&nbsp; Top 10%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+        <div class="exp-container">
+            <div class="section-label">Work & Activities</div>
+            <h2 class="section-title">My <span class="grad-text">Experience</span></h2>
+            <div class="section-divider"></div>
+            <div class="timeline reveal">
+
+                <div class="exp-item">
+                    <div class="exp-dot"></div>
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <div>
+                                <div class="exp-role">Data Analyst & Fullstack Developer</div>
+                                <div class="exp-company">PT PLN (Persero) UP3 Gresik</div>
+                            </div>
+                            <span class="exp-badge">Internship</span>
+                        </div>
+                        <ul class="exp-list">
+                            <li>Developed real-time performance monitoring dashboards using Looker Studio.</li>
+                            <li>Built a web-based invoice delivery system using PHP, HTML, and CSS.</li>
+                        </ul>
+                        <div class="exp-docs">
+                            <a href="https://datastudio.google.com/reporting/d19f5609-8c39-4828-8210-f0176927875c/page/p_n00d7wpjrd"
+                                target="_blank" class="doc-thumb">
+
+                                <i class="fas fa-chart-line"></i>
+                                <span>Dashboard</span>
+                            </a>
+                            <a href="https://drive.google.com/file/d/1ZhxWRUmdiyYAc-ARsY3y-mv_6CDkwQkd/view?usp=drive_link"
+                                target="_blank" class="doc-thumb">
+
+                                <i class="fas fa-certificate"></i>
+                                <span>Certificate</span>
+                            </a>
+                            <a href="https://github.com/ririsariii/Web-PLN-UP3-Gresik" target="_blank"
+                                class="doc-thumb">
+
+                                <i class="fas fa-globe"></i>
+                                <span>Website</span>
+                            </a>
+                            <!-- IMAGE -->
+                            <div class="doc-image">
+                                <img src="assets/magang.jpg" alt="PLN Internship Activity">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-dot"></div>
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <div>
+                                <div class="exp-role">Machine Learning Cohort</div>
+                                <div class="exp-company">Bangkit Academy led by Google, Tokopedia, Gojek & Traveloka
+                                </div>
+                            </div>
+                            <span class="exp-badge">Bootcamp</span>
+                        </div>
+                        <ul class="exp-list">
+                            <li>Completed an intensive Machine Learning learning path covering Python, TensorFlow, Deep
+                                Learning, Data Analysis, and AI implementation.</li>
+                            <li>Led the multidisciplinary capstone project team in developing “Tanamore”, a Machine
+                                Learning-powered application for plant disease detection and urban farming support.</li>
+                            <li>Achieved Top 50 Capstone Project out of 644 projects in Bangkit Academy 2024 Batch 2
+                                through “Tanamore.</li>
+                            <li>Achieved Distinction Graduate and Best Graduate of Machine Learning Path.</li>
+                            <li>Achieved 13,700 points (Tier 7) as part of the program milestones, Completed 20+ courses
+                                from Dicoding and Coursera, and Earned professional certifications from Google,
+                                DeepLearning.AI, and Dicoding.</li>
+                        </ul>
+                        <div class="exp-docs">
+                            <a href="https://drive.google.com/file/d/1s6cBPKVBuXhwWTG-koAyV6OXgXM_nxPw/view?usp=drive_link"
+                                target="_blank" class="doc-thumb">
+
+                                <i class="fas fa-certificate"></i>
+                                <span>Certificate</span>
+                            </a>
+
+                            <a href="https://drive.google.com/file/d/1Ic62jiiJS-QczInstp80qrb9qN17-dKC/view?usp=drive_link"
+                                target="_blank" class="doc-thumb">
+
+                                <i class="fas fa-trophy"></i>
+                                <span>Award</span>
+                            </a>
+
+                            <a href="https://youtu.be/RZQ_FNTVXYQ" target="_blank" class="doc-thumb">
+
+                                <i class="fas fa-play-circle"></i>
+                                <span>Capstone</span>
+                            </a>
+                            <!-- IMAGE -->
+                            <div class="doc-image">
+                                <img src="assets/bangkit.jpg" alt="PLN Internship Activity">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-dot"></div>
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <div>
+                                <div class="exp-role">Assistant Lecturer – Programming Language 2</div>
+                                <div class="exp-company">UPN "Veteran" Jawa Timur</div>
+                            </div>
+                            <span class="exp-badge">Academic</span>
+                        </div>
+                        <ul class="exp-list">
+                            <li>Evaluated assignments, quizzes, and final projects for undergraduate students.</li>
+                        </ul>
+                        <div class="exp-docs">
+                            <a href="https://drive.google.com/file/d/1Lz31b5-k-Ffz9Z0g5XyJm_JNDLW-66I3/view?usp=drive_link"
+                                target="_blank" class="doc-thumb">
+
+                                <i class="fas fa-certificate"></i>
+                                <span>Certificate</span>
+                            </a>
+                            <!-- IMAGE -->
+                            <div class="doc-image">
+                                <img src="assets/asistendosen.jpg" alt="PLN Internship Activity">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-dot"></div>
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <div>
+                                <div class="exp-role">Staff & Head of Advocacy Department</div>
+                                <div class="exp-company">Himpunan Mahasiswa Sistem Informasi UPNVJT</div>
+                            </div>
+                            <span class="exp-badge">Organization</span>
+                        </div>
+                        <ul class="exp-list">
+                            <li>Assisted students in academic and non-academic matters, including aspiration and
+                                advocacy services.</li>
+                            <li>Coordinated advocacy programs and facilitated communication between students and
+                                university bureaucracy.</li>
+                            <li>Managed "Advormate," a centralized student complaint and aspiration platform.</li>
+                        </ul>
+                        <div class="exp-docs">
+
+                            <div class="doc-image">
+                                <img src="assets/himasifo.jpg" alt="Organization Activity">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements">
+        <div style="max-width:1100px;margin:0 auto;">
+            <div class="section-label">Awards & Recognition</div>
+            <h2 class="section-title">My <span class="grad-text">Achievements</span></h2>
+            <div class="section-divider"></div>
+            <div class="ach-grid reveal">
+
+                <div class="ach-card">
+                    <div class="ach-icon">🥉</div>
+
+                    <div class="ach-title">
+                        3rd Best Graduate UPN "Veteran" Jawa Timur – Wisuda 98, 2026
+                    </div>
+
+                    <p class="ach-text">
+                        Awarded as the 3rd Best Graduate with a GPA of 3.87,
+                        SKPM score of 1000+, and a total academic and
+                        non-academic achievement score of 88.0.
+                    </p>
+
+                    <a href="https://drive.google.com/file/d/1_ykVwiFyquLjFMRZUYX2QVV6eDeIf_iT/view?usp=sharing"
+                        target="_blank" class="ach-cert">
+
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+
+                <div class="ach-card">
+                    <div class="ach-icon">⭐</div>
+
+                    <div class="ach-title">
+                        Distinction Graduate & Best Graduate of ML Path – Bangkit Academy 2024 Batch 2
+                    </div>
+
+                    <p class="ach-text">
+                        Successfully graduated from Bangkit Academy led by Google, Tokopedia,
+                        Gojek & Traveloka as a "Distinction Graduate," awarded to the top 10%
+                        of participants with a final score of 96.8. Recognized as Best Graduate
+                        of the Machine Learning Path.
+                    </p>
+
+                    <a href="https://drive.google.com/file/d/1s6cBPKVBuXhwWTG-koAyV6OXgXM_nxPw/view?usp=sharing"
+                        target="_blank" class="ach-cert">
+
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+
+                <div class="ach-card">
+                    <div class="ach-icon">🏆</div>
+                    <div class="ach-title">Top 50 Capstone Project – Bangkit Academy 2024 Batch 2 with "Tanamore"</div>
+                    <p class="ach-text">Led the "Tanamore" project as Project Leader developing a ML-based app for plant
+                        disease detection and farming management. Selected as one of the Top 50 Capstone Projects out of
+                        600+ for innovation and impact.</p>
+                    <a href="https://drive.google.com/file/d/1Ic62jiiJS-QczInstp80qrb9qN17-dKC/view?usp=drive_link"
+                        class="ach-cert"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="skills-container">
+            <div class="section-label">Capabilities</div>
+            <h2 class="section-title">My <span class="grad-text">Skills</span></h2>
+            <div class="section-divider"></div>
+            <div class="skills-grid reveal">
+
+                <div class="skill-group">
+                    <div class="skill-group-title">
+                        <div class="skill-group-icon">💻</div> Programming Languages
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <div class="skill-group-title">
+                        <div class="skill-group-icon">🔧</div> Tools & Platforms
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Looker/Data Studio</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">Streamlit</span>
+                        <span class="skill-tag">Laravel</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Jupyter</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">ODOO</span>
+                        <span class="skill-tag">Canva</span>
+                        <span class="skill-tag">CapCut</span>
+                        <span class="skill-tag">Google Colab</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <div class="skill-group-title">
+                        <div class="skill-group-icon">🧠</div> Hard Skills
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Data Analytics</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Deep Learning</span>
+                        <span class="skill-tag">Dashboard Dev</span>
+                        <span class="skill-tag">Web Development</span>
+                        <span class="skill-tag">Data Warehouse</span>
+                        <span class="skill-tag">OLAP</span>
+                        <span class="skill-tag">System Analysis</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <div class="skill-group-title">
+                        <div class="skill-group-icon">🤝</div> Soft Skills
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Leadership</span>
+                        <span class="skill-tag">Public Speaking</span>
+                        <span class="skill-tag">Teamwork</span>
+                        <span class="skill-tag">Adaptability</span>
+                        <span class="skill-tag">Critical Thinking</span>
+                        <span class="skill-tag">Time Management</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <div class="skill-group-title">
+                        <div class="skill-group-icon">🌐</div> Languages
+                    </div>
+                    <div class="lang-bars">
+                        <div class="lang-bar-item">
+                            <div class="lang-bar-header"><span>Indonesian</span><span
+                                    style="color:var(--purple-pale)">Native</span></div>
+                            <div class="lang-bar-track">
+                                <div class="lang-bar-fill" style="width:100%"></div>
+                            </div>
+                        </div>
+                        <div class="lang-bar-item">
+                            <div class="lang-bar-header"><span>English</span><span
+                                    style="color:var(--purple-pale)">Intermediate</span></div>
+                            <div class="lang-bar-track">
+                                <div class="lang-bar-fill" style="width:65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div style="max-width:1200px;margin:0 auto;">
+            <div class="section-label">Portfolio</div>
+            <h2 class="section-title">My <span class="grad-text">Projects</span></h2>
+            <div class="section-divider"></div>
+            <div class="proj-grid reveal">
+
+                <div class="proj-card">
+                    <div class="proj-card-top"><span class="proj-emoji">🔬</span></div>
+                    <div class="proj-body">
+                        <div class="proj-title">Aspect-Based Sentiment Analysis – PLN Mobile App Reviews (Thesis)</div>
+                        <p class="proj-desc">Conducted aspect-based sentiment analysis using machine learning and topic
+                            modeling to identify customer opinions and service quality insights from PLN Mobile user
+                            reviews.</p>
+                        <div class="proj-stack">
+                            <span class="stack-tag">Python</span><span class="stack-tag">PHP</span><span
+                                class="stack-tag">Flask</span><span class="stack-tag">HTML/CSS</span><span
+                                class="stack-tag">ML</span>
+                        </div>
+                        <div class="proj-actions">
+                            <a href="https://github.com/ririsariii/ABSA-PLN-Mobile" target="_blank" class="proj-btn"><i
+                                    class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card">
+                    <div class="proj-card-top">
+                        <span class="proj-emoji">📊</span>
+                    </div>
+
+                    <div class="proj-body">
+                        <div class="proj-title">
+                            PLN UP3 Gresik Performance Monitoring Dashboard
+                        </div>
+
+                        <p class="proj-desc">
+                            Developed an interactive Looker Studio dashboard to monitor operational
+                            and marketing performance data in real-time for PLN UP3 Gresik management.
+                        </p>
+
+                        <div class="proj-stack">
+                            <span class="stack-tag">Looker Studio</span>
+                            <span class="stack-tag">Google Sheets</span>
+                            <span class="stack-tag">SQL</span>
+                        </div>
+
+                        <div class="proj-actions">
+                            <a href="https://datastudio.google.com/reporting/d19f5609-8c39-4828-8210-f0176927875c/page/p_n00d7wpjrd"
+                                target="_blank" class="proj-btn">
+
+                                <i class="fa-solid fa-chart-line"></i> View Dashboard
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card">
+                    <div class="proj-card-top"><span class="proj-emoji">🏢</span></div>
+                    <div class="proj-body">
+                        <div class="proj-title">AdventureWorks Data Warehouse & OLAP Dashboard</div>
+                        <p class="proj-desc">Built a data warehouse and OLAP-based dashboard using Microsoft
+                            AdventureWorks database to support multidimensional business analysis and reporting.</p>
+                        <div class="proj-stack">
+                            <span class="stack-tag">SQL</span><span class="stack-tag">Excel</span><span
+                                class="stack-tag">OLAP</span><span class="stack-tag">Power BI</span>
+                        </div>
+                        <div class="proj-actions">
+                            <a href="https://github.com/ririsariii/Dashboard-DWO-OLAP-adventureworks" target="_blank"
+                                class="proj-btn"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card">
+                    <div class="proj-card-top"><span class="proj-emoji">🌱</span></div>
+                    <div class="proj-body">
+                        <div class="proj-title">Tanamore – Plant Disease Detection Mobile App</div>
+                        <p class="proj-desc">Developed ML models for plant disease detection and plant identification
+                            with 97% accuracy using TensorFlow. Led as Project Leader – selected as Top 50 Capstone
+                            Projects at Bangkit 2024.</p>
+                        <div class="proj-stack">
+                            <span class="stack-tag">Python</span><span class="stack-tag">TensorFlow</span><span
+                                class="stack-tag">Android</span><span class="stack-tag">Flask</span>
+                        </div>
+                        <div class="proj-actions">
+                            <a href="https://github.com/Tanamore" target="_blank" class="proj-btn"><i
+                                    class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card">
+                    <div class="proj-card-top"><span class="proj-emoji">🏥</span></div>
+                    <div class="proj-body">
+                        <div class="proj-title">Brillian Medical Store – Web-Based Medical Equipment Store</div>
+                        <p class="proj-desc">Developed a web-based medical equipment store with product management,
+                            ordering, customer transactions, and invoice generation.</p>
+                        <div class="proj-stack">
+                            <span class="stack-tag">PHP</span><span class="stack-tag">MySQL</span><span
+                                class="stack-tag">HTML/CSS</span><span class="stack-tag">JavaScript</span>
+                        </div>
+                        <div class="proj-actions">
+                            <a href="https://github.com/ririsariii/Toko-Alat-Kesehatan-Brillian-Medical-Store"
+                                target="_blank" class="proj-btn"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card">
+                    <div class="proj-card-top"><span class="proj-emoji">🧾</span></div>
+                    <div class="proj-body">
+                        <div class="proj-title">Monthly Invoice Delivery System – PLN UP3 Gresik</div>
+                        <p class="proj-desc">Developed a web-based system to manage customer billing data and automate
+                            monthly invoice delivery for PLN UP3 Gresik.</p>
+                        <div class="proj-stack">
+                            <span class="stack-tag">PHP</span><span class="stack-tag">HTML/CSS</span><span
+                                class="stack-tag">MySQL</span>
+                        </div>
+                        <div class="proj-actions">
+                            <a href="https://github.com/ririsariii/Web-PLN-UP3-Gresik" target="_blank"
+                                class="proj-btn"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card">
+                    <div class="proj-card-top"><span class="proj-emoji">🌿</span></div>
+                    <div class="proj-body">
+                        <div class="proj-title">Eco Harmony – Smart Village Website</div>
+                        <p class="proj-desc">Developed a smart village website using Laravel framework to support
+                            digital information and village service management.</p>
+                        <div class="proj-stack">
+                            <span class="stack-tag">Laravel</span><span class="stack-tag">PHP</span><span
+                                class="stack-tag">MySQL</span><span class="stack-tag">Blade</span>
+                        </div>
+                        <div class="proj-actions">
+                            <a href="https://github.com/ririsariii/eco-harmony" target="_blank" class="proj-btn"><i
+                                    class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card">
+                    <div class="proj-card-top">
+                        <span class="proj-emoji">🥞</span>
+                    </div>
+
+                    <div class="proj-body">
+                        <div class="proj-title">
+                            Odoo ERP System – Martabak & Terang Bulan "Ilham"
+                        </div>
+
+                        <p class="proj-desc">
+                            Implemented and configured an Odoo-based ERP system integrating
+                            Inventory, Purchasing, Manufacturing, Sales, and Invoicing modules
+                            to support business process digitalization.
+                        </p>
+
+                        <div class="proj-stack">
+                            <span class="stack-tag">ODOO</span>
+                            <span class="stack-tag">ERP</span>
+                            <span class="stack-tag">Python</span>
+                        </div>
+
+                        <div class="proj-actions">
+                            <a href="https://drive.google.com/file/d/19I2GD-F08bhS_amAb71k-0vWhGoPZbWD/view?usp=sharing"
+                                target="_blank" class="proj-btn">
+
+                                <i class="fa-solid fa-file-lines"></i> Documentation
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="proj-card">
+                    <div class="proj-card-top">
+                        <span class="proj-emoji">🎟️</span>
+                    </div>
+
+                    <div class="proj-body">
+                        <div class="proj-title">
+                            Ticketify – Ticket Booking Mobile Application
+                        </div>
+
+                        <p class="proj-desc">
+                            Developed an Android-based ticket booking application using Kotlin
+                            and Android Studio. The application enables users to search, book,
+                            and manage transportation tickets through a modern mobile interface.
+                        </p>
+
+                        <div class="proj-stack">
+                            <span class="stack-tag">Kotlin</span>
+                            <span class="stack-tag">Android Studio</span>
+                            <span class="stack-tag">SQLite</span>
+                            <span class="stack-tag">RxJava</span>
+                        </div>
+
+                        <div class="proj-actions">
+                            <a href="https://github.com/ririsariii/Ticketify" target="_blank" class="proj-btn">
+
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="contact-inner">
+            <div class="section-label">Get In Touch</div>
+            <h2 class="section-title">Let's <span class="grad-text">Connect</span></h2>
+            <div class="section-divider" style="margin:0 auto 2rem;"></div>
+            <p class="contact-desc">I'm currently open to new opportunities. Whether you have a project idea, job offer,
+                or just want to say hi — my inbox is always open!</p>
+            <div class="contact-cards reveal">
+                <a href="mailto:yulianipurwitasari19@gmail.com" class="contact-card">
+                    <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="contact-card-label">Email</div>
+                    <div class="contact-card-val">yulianipurwitasari19@gmail.com</div>
+                </a>
+                <a href="https://linkedin.com/in/yuliani-purwitasari" target="_blank" class="contact-card">
+                    <div class="contact-card-icon"><i class="fab fa-linkedin-in"></i></div>
+                    <div class="contact-card-label">LinkedIn</div>
+                    <div class="contact-card-val">yuliani-purwitasari</div>
+                </a>
+                <a href="https://github.com/ririsariii" target="_blank" class="contact-card">
+                    <div class="contact-card-icon"><i class="fab fa-github"></i></div>
+                    <div class="contact-card-label">GitHub</div>
+                    <div class="contact-card-val">ririsariii</div>
+                </a>
+                <a href="https://instagram.com/ririsariii" target="_blank" class="contact-card">
+                    <div class="contact-card-icon"><i class="fab fa-instagram"></i></div>
+                    <div class="contact-card-label">Instagram</div>
+                    <div class="contact-card-val">@ririsariii</div>
+                </a>
+                <div class="contact-card">
+                    <div class="contact-card-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="contact-card-label">Location</div>
+                    <div class="contact-card-val">Trenggalek, East Java, ID</div>
+                </div>
+            </div>
+            <div class="contact-form reveal">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Your Name</label>
+                        <input type="text" placeholder="Your Name" />
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" placeholder="youremail@example.com" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Subject</label>
+                    <input type="text" placeholder="Job Opportunity / Collaboration / Hi!" />
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea rows="5" placeholder="Write your message here..."></textarea>
+                </div>
+                <button class="btn-primary" style="width:100%;justify-content:center;"
+                    onclick="alert('Thank you for your message! I will get back to you soon.')">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Designed & Built with 💜 by <span>Yuliani Purwitasari</span> &nbsp;·&nbsp; 2026</p>
+    </footer>
+
+    <!-- Scroll Top -->
+    <button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Custom cursor
+        const cursor = document.getElementById('cursor');
+        const ring = document.getElementById('cursorRing');
+        let mx = 0, my = 0, rx = 0, ry = 0;
+        document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; cursor.style.left = mx + 'px'; cursor.style.top = my + 'px'; });
+        function animRing() { rx += (mx - rx) * 0.12; ry += (my - ry) * 0.12; ring.style.left = rx + 'px'; ring.style.top = ry + 'px'; requestAnimationFrame(animRing); }
+        animRing();
+        document.querySelectorAll('a,button,.proj-card,.ach-card,.skill-tag').forEach(el => {
+            el.addEventListener('mouseenter', () => { cursor.style.transform = 'translate(-50%,-50%) scale(2)'; ring.style.transform = 'translate(-50%,-50%) scale(1.5)'; ring.style.borderColor = 'var(--pink)'; });
+            el.addEventListener('mouseleave', () => { cursor.style.transform = 'translate(-50%,-50%) scale(1)'; ring.style.transform = 'translate(-50%,-50%) scale(1)'; ring.style.borderColor = 'var(--purple-light)'; });
+        });
+
+        // Navbar scroll
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+            document.getElementById('scrollTop').classList.toggle('visible', window.scrollY > 400);
+        });
+
+        // Mobile menu
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+        hamburger.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+        function closeMobile() { mobileMenu.classList.remove('open'); }
+
+        // Reveal on scroll
+        const reveals = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+        }, { threshold: 0.1 });
+        reveals.forEach(r => observer.observe(r));
+
+        // Active nav link
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-links a');
+        window.addEventListener('scroll', () => {
+            let cur = '';
+            sections.forEach(s => { if (window.scrollY >= s.offsetTop - 100) cur = s.id; });
+            navLinks.forEach(a => { a.style.color = a.getAttribute('href') === '#' + cur ? 'var(--white)' : ''; });
+        });
+    </script>
+</body>
+
+</html>
