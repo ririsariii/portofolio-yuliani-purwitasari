@@ -11,6 +11,8 @@
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+
 </head>
 
 <body>
@@ -28,12 +30,13 @@
     <nav id="navbar">
         <div class="nav-logo">Sari's Portofolio</div>
         <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Me</a></li>
+            <li><a href="#home">About Me</a></li>
             <li><a href="#experience">Experiences</a></li>
             <li><a href="#achievements">Achievements</a></li>
-            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#committees">Committees</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="hamburger" id="hamburger">
@@ -41,12 +44,13 @@
         </div>
     </nav>
     <div class="mobile-menu" id="mobileMenu">
-        <a href="#home" onclick="closeMobile()">Home</a>
-        <a href="#about" onclick="closeMobile()">About</a>
+        <a href="#home" onclick="closeMobile()">About</a>
         <a href="#experience" onclick="closeMobile()">Experience</a>
         <a href="#achievements" onclick="closeMobile()">Achievements</a>
-        <a href="#skills" onclick="closeMobile()">Skills</a>
         <a href="#projects" onclick="closeMobile()">Projects</a>
+        <a href="#certifications" onclick="closeMobile()">Certifications</a>
+        <a href="#skills" onclick="closeMobile()">Skills</a>
+        <a href="#committees" onclick="closeMobile()">Committees</a>
         <a href="#contact" onclick="closeMobile()">Contact</a>
     </div>
 
@@ -103,7 +107,6 @@
             </div>
             <div class="hero-avatar-wrap">
                 <div class="avatar-glow"></div>
-
                 <div class="avatar-ring">
                     <div class="avatar-inner">
                         <img src="assets/profilephoto.jpg" alt="Profile Photo" class="profile-photo">
@@ -117,7 +120,6 @@
                     <div style="font-size:0.68rem;color:var(--muted);">Bangkit Academy 2024</div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
 
@@ -143,31 +145,14 @@
                             adaptability skills.
                         </p>
                         <div class="info-grid">
-
-                            <a href="https://maps.google.com/?q=Trenggalek,East+Java" target="_blank" class="info-item">
-
-                                <i class="fas fa-map-marker-alt"></i>
-                                Trenggalek, East Java
-                            </a>
-
-                            <a href="mailto:yulianipurwitasari19@gmail.com" class="info-item">
-
-                                <i class="fas fa-envelope"></i>
-                                yulianipurwitasari19@gmail.com
-                            </a>
-
-                            <a href="https://github.com/ririsariii" target="_blank" class="info-item">
-
-                                <i class="fab fa-github"></i>
-                                github.com/ririsariii
-                            </a>
-
-                            <a href="https://linkedin.com/in/yuliani-purwitasari" target="_blank" class="info-item">
-
-                                <i class="fab fa-linkedin"></i>
-                                yuliani-purwitasari
-                            </a>
-
+                            <a href="https://maps.google.com/?q=Trenggalek,East+Java" target="_blank"
+                                class="info-item"><i class="fas fa-map-marker-alt"></i> Trenggalek, East Java</a>
+                            <a href="mailto:yulianipurwitasari19@gmail.com" class="info-item"><i
+                                    class="fas fa-envelope"></i> yulianipurwitasari19@gmail.com</a>
+                            <a href="https://github.com/ririsariii" target="_blank" class="info-item"><i
+                                    class="fab fa-github"></i> github.com/ririsariii</a>
+                            <a href="https://linkedin.com/in/yuliani-purwitasari" target="_blank" class="info-item"><i
+                                    class="fab fa-linkedin"></i> yuliani-purwitasari</a>
                         </div>
                     </div>
                 </div>
@@ -225,27 +210,17 @@
                         </ul>
                         <div class="exp-docs">
                             <a href="https://datastudio.google.com/reporting/d19f5609-8c39-4828-8210-f0176927875c/page/p_n00d7wpjrd"
-                                target="_blank" class="doc-thumb">
-
-                                <i class="fas fa-chart-line"></i>
-                                <span>Dashboard</span>
-                            </a>
+                                target="_blank" class="doc-thumb"><i
+                                    class="fas fa-chart-line"></i><span>Dashboard</span></a>
                             <a href="https://drive.google.com/file/d/1ZhxWRUmdiyYAc-ARsY3y-mv_6CDkwQkd/view?usp=drive_link"
-                                target="_blank" class="doc-thumb">
-
-                                <i class="fas fa-certificate"></i>
-                                <span>Certificate</span>
-                            </a>
+                                target="_blank" class="doc-thumb"><i
+                                    class="fas fa-certificate"></i><span>Certificate</span></a>
                             <a href="https://github.com/ririsariii/Web-PLN-UP3-Gresik" target="_blank"
-                                class="doc-thumb">
-
-                                <i class="fas fa-globe"></i>
-                                <span>Website</span>
-                            </a>
-                            <!-- IMAGE -->
-                            <div class="doc-image">
-                                <img src="assets/magang.jpg" alt="PLN Internship Activity">
-                            </div>
+                                class="doc-thumb"><i class="fas fa-globe"></i><span>Website</span></a>
+                        </div>
+                        <div class="exp-activity-gallery">
+                            <img src="assets/magang.jpg" alt="PLN Internship Activity"
+                                onclick="openLightbox(this.src, 'PLN UP3 Gresik – Internship')">
                         </div>
                     </div>
                 </div>
@@ -264,39 +239,25 @@
                         <ul class="exp-list">
                             <li>Completed an intensive Machine Learning learning path covering Python, TensorFlow, Deep
                                 Learning, Data Analysis, and AI implementation.</li>
-                            <li>Led the multidisciplinary capstone project team in developing “Tanamore”, a Machine
-                                Learning-powered application for plant disease detection and urban farming support.</li>
-                            <li>Achieved Top 50 Capstone Project out of 644 projects in Bangkit Academy 2024 Batch 2
-                                through “Tanamore.</li>
-                            <li>Achieved Distinction Graduate and Best Graduate of Machine Learning Path.</li>
-                            <li>Achieved 13,700 points (Tier 7) as part of the program milestones, Completed 20+ courses
-                                from Dicoding and Coursera, and Earned professional certifications from Google,
-                                DeepLearning.AI, and Dicoding.</li>
+                            <li>Led the multidisciplinary capstone project team in developing "Tanamore", a ML-powered
+                                application for plant disease detection and urban farming support.</li>
+                            <li>Achieved Top 50 Capstone Project out of 644 projects. Achieved Distinction Graduate and
+                                Best Graduate of ML Path.</li>
+                            <li>Earned 13,700 points (Tier 7), completed 20+ courses from Dicoding and Coursera, and
+                                earned professional certifications from Google, DeepLearning.AI, and Dicoding.</li>
                         </ul>
                         <div class="exp-docs">
                             <a href="https://drive.google.com/file/d/1s6cBPKVBuXhwWTG-koAyV6OXgXM_nxPw/view?usp=drive_link"
-                                target="_blank" class="doc-thumb">
-
-                                <i class="fas fa-certificate"></i>
-                                <span>Certificate</span>
-                            </a>
-
+                                target="_blank" class="doc-thumb"><i
+                                    class="fas fa-certificate"></i><span>Certificate</span></a>
                             <a href="https://drive.google.com/file/d/1Ic62jiiJS-QczInstp80qrb9qN17-dKC/view?usp=drive_link"
-                                target="_blank" class="doc-thumb">
-
-                                <i class="fas fa-trophy"></i>
-                                <span>Award</span>
-                            </a>
-
-                            <a href="https://youtu.be/RZQ_FNTVXYQ" target="_blank" class="doc-thumb">
-
-                                <i class="fas fa-play-circle"></i>
-                                <span>Capstone</span>
-                            </a>
-                            <!-- IMAGE -->
-                            <div class="doc-image">
-                                <img src="assets/bangkit.jpg" alt="PLN Internship Activity">
-                            </div>
+                                target="_blank" class="doc-thumb"><i class="fas fa-trophy"></i><span>Award</span></a>
+                            <a href="https://youtu.be/RZQ_FNTVXYQ" target="_blank" class="doc-thumb"><i
+                                    class="fas fa-play-circle"></i><span>Capstone</span></a>
+                        </div>
+                        <div class="exp-activity-gallery">
+                            <img src="assets/bangkit.jpg" alt="Bangkit Academy"
+                                onclick="openLightbox(this.src, 'Bangkit Academy 2024')">
                         </div>
                     </div>
                 </div>
@@ -316,15 +277,11 @@
                         </ul>
                         <div class="exp-docs">
                             <a href="https://drive.google.com/file/d/1Lz31b5-k-Ffz9Z0g5XyJm_JNDLW-66I3/view?usp=drive_link"
-                                target="_blank" class="doc-thumb">
-
-                                <i class="fas fa-certificate"></i>
-                                <span>Certificate</span>
-                            </a>
+                                target="_blank" class="doc-thumb"><i
+                                    class="fas fa-certificate"></i><span>Certificate</span></a>
                         </div>
                     </div>
                 </div>
-
                 <div class="exp-item">
                     <div class="exp-dot"></div>
 
@@ -380,9 +337,10 @@
 
                         </div>
 
-                        <!-- IMAGE -->
-                        <div class="doc-image">
-                            <img src="assets/himasifo.jpg" alt="Organization Activity">
+                        <!-- Activity Gallery -->
+                        <div class="exp-activity-gallery">
+                            <img src="assets/himasifo.jpg" alt="HIMASIFO Organization Activity"
+                                onclick="openLightbox(this.src, 'HIMASIFO Organization Activity')">
                         </div>
 
                     </div>
@@ -398,48 +356,24 @@
             <h2 class="section-title">My <span class="grad-text">Achievements</span></h2>
             <div class="section-divider"></div>
             <div class="ach-grid reveal">
-
                 <div class="ach-card">
                     <div class="ach-icon">🥉</div>
-
-                    <div class="ach-title">
-                        3rd Best Graduate UPN "Veteran" Jawa Timur – Wisuda 98, 2026
-                    </div>
-
-                    <p class="ach-text">
-                        Awarded as the 3rd Best Graduate with a GPA of 3.87,
-                        SKPM score of 1000+, and a total academic and
-                        non-academic achievement score of 88.0.
-                    </p>
-
+                    <div class="ach-title">3rd Best Graduate UPN "Veteran" Jawa Timur – Wisuda 98, 2026</div>
+                    <p class="ach-text">Awarded as the 3rd Best Graduate with a GPA of 3.87, SKPM score of 1000+, and a
+                        total academic and non-academic achievement score of 88.0.</p>
                     <a href="https://drive.google.com/file/d/1_ykVwiFyquLjFMRZUYX2QVV6eDeIf_iT/view?usp=sharing"
-                        target="_blank" class="ach-cert">
-
-                        <i class="fas fa-external-link-alt"></i> View Certificate
-                    </a>
+                        target="_blank" class="ach-cert"><i class="fas fa-external-link-alt"></i> View Certificate</a>
                 </div>
-
                 <div class="ach-card">
                     <div class="ach-icon">⭐</div>
-
-                    <div class="ach-title">
-                        Distinction Graduate & Best Graduate of ML Path – Bangkit Academy 2024 Batch 2
-                    </div>
-
-                    <p class="ach-text">
-                        Successfully graduated from Bangkit Academy led by Google, Tokopedia,
-                        Gojek & Traveloka as a "Distinction Graduate," awarded to the top 10%
-                        of participants with a final score of 96.8. Recognized as Best Graduate
-                        of the Machine Learning Path.
-                    </p>
-
+                    <div class="ach-title">Distinction Graduate & Best Graduate of ML Path – Bangkit Academy 2024 Batch
+                        2</div>
+                    <p class="ach-text">Successfully graduated from Bangkit Academy led by Google, Tokopedia, Gojek &
+                        Traveloka as a "Distinction Graduate," awarded to the top 10% of participants with a final score
+                        of 96.8. Recognized as Best Graduate of the Machine Learning Path.</p>
                     <a href="https://drive.google.com/file/d/1s6cBPKVBuXhwWTG-koAyV6OXgXM_nxPw/view?usp=sharing"
-                        target="_blank" class="ach-cert">
-
-                        <i class="fas fa-external-link-alt"></i> View Certificate
-                    </a>
+                        target="_blank" class="ach-cert"><i class="fas fa-external-link-alt"></i> View Certificate</a>
                 </div>
-
                 <div class="ach-card">
                     <div class="ach-icon">🏆</div>
                     <div class="ach-title">Top 50 Capstone Project – Bangkit Academy 2024 Batch 2 with "Tanamore"</div>
@@ -449,6 +383,579 @@
                     <a href="https://drive.google.com/file/d/1Ic62jiiJS-QczInstp80qrb9qN17-dKC/view?usp=drive_link"
                         class="ach-cert"><i class="fas fa-external-link-alt"></i> View Certificate</a>
                 </div>
+            </div>
+        </div>
+    </section>
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div style="max-width:1200px;margin:0 auto;">
+            <div class="section-label">Portfolio</div>
+            <h2 class="section-title">My <span class="grad-text">Projects</span></h2>
+            <div class="section-divider"></div>
+            <div class="proj-grid reveal">
+
+                <div class="proj-card">
+                    <div class="proj-card-top">
+                        <div class="proj-img-wrap"
+                            onclick="openLightbox('assets/projects/absa.jpg', 'Aspect-Based Sentiment Analysis – PLN Mobile')">
+                            <div class="proj-emoji-placeholder">🔬</div>
+                            <div class="proj-img-overlay"><i class="fas fa-expand-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="proj-body">
+                        <div class="proj-title">Aspect-Based Sentiment Analysis – PLN Mobile App Reviews (Thesis)</div>
+                        <p class="proj-desc">Conducted aspect-based sentiment analysis using machine learning and topic
+                            modeling to identify customer opinions and service quality insights from PLN Mobile user
+                            reviews.</p>
+                        <div class="proj-stack">
+                            <span class="stack-tag">Python</span><span class="stack-tag">PHP</span><span
+                                class="stack-tag">Flask</span><span class="stack-tag">HTML/CSS</span><span
+                                class="stack-tag">ML</span>
+                        </div>
+                        <div class="proj-actions">
+                            <a href="https://github.com/ririsariii/ABSA-PLN-Mobile" target="_blank" class="proj-btn"><i
+                                    class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card">
+                    <div class="proj-card-top">
+                        <div class="proj-img-wrap"
+                            onclick="openLightbox('assets/projects/pln-dashboard.jpg', 'PLN UP3 Gresik Performance Dashboard')">
+                            <div class="proj-emoji-placeholder">📊</div>
+                            <div class="proj-img-overlay"><i class="fas fa-expand-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="proj-body">
+                        <div class="proj-title">PLN UP3 Gresik Performance Monitoring Dashboard</div>
+                        <p class="proj-desc">Developed an interactive Looker Studio dashboard to monitor operational and
+                            marketing performance data in real-time for PLN UP3 Gresik management.</p>
+                        <div class="proj-stack">
+                            <span class="stack-tag">Looker Studio</span><span class="stack-tag">Google
+                                Sheets</span><span class="stack-tag">SQL</span>
+                        </div>
+                        <div class="proj-actions">
+                            <a href="https://datastudio.google.com/reporting/d19f5609-8c39-4828-8210-f0176927875c/page/p_n00d7wpjrd"
+                                target="_blank" class="proj-btn"><i class="fa-solid fa-chart-line"></i> View
+                                Dashboard</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card">
+                    <div class="proj-card-top">
+                        <div class="proj-img-wrap"
+                            onclick="openLightbox('assets/projects/adventureworks.jpg', 'AdventureWorks Data Warehouse & OLAP Dashboard')">
+                            <div class="proj-emoji-placeholder">🏢</div>
+                            <div class="proj-img-overlay"><i class="fas fa-expand-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="proj-body">
+                        <div class="proj-title">AdventureWorks Data Warehouse & OLAP Dashboard</div>
+                        <p class="proj-desc">Built a data warehouse and OLAP-based dashboard using Microsoft
+                            AdventureWorks database to support multidimensional business analysis and reporting.</p>
+                        <div class="proj-stack">
+                            <span class="stack-tag">MySQL</span><span class="stack-tag">PHP</span><span
+                                class="stack-tag">Pentaho</span><span class="stack-tag">Mondrian OLAP</span><span
+                                class="stack-tag">Chart.js</span>
+                        </div>
+                        <div class="proj-actions">
+                            <a href="https://github.com/ririsariii/Dashboard-DWO-OLAP-adventureworks" target="_blank"
+                                class="proj-btn"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card">
+                    <div class="proj-card-top">
+                        <div class="proj-img-wrap"
+                            onclick="openLightbox('assets/projects/tanamore.jpg', 'Tanamore – Plant Disease Detection Mobile App')">
+                            <div class="proj-emoji-placeholder">🌱</div>
+                            <div class="proj-img-overlay"><i class="fas fa-expand-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="proj-body">
+                        <div class="proj-title">Tanamore – Plant Disease Detection Mobile App</div>
+                        <p class="proj-desc">Developed ML models for plant disease detection and plant identification
+                            with 97% accuracy using TensorFlow. Led as Project Leader – selected as Top 50 Capstone
+                            Projects at Bangkit 2024.</p>
+                        <div class="proj-stack">
+                            <span class="stack-tag">TensorFlow</span><span class="stack-tag">Keras</span><span
+                                class="stack-tag">Python</span><span class="stack-tag">Flask</span><span
+                                class="stack-tag">Kotlin</span><span class="stack-tag">Google Cloud</span>
+                        </div>
+                        <div class="proj-actions">
+                            <a href="https://github.com/Tanamore" target="_blank" class="proj-btn"><i
+                                    class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card">
+                    <div class="proj-card-top">
+                        <div class="proj-img-wrap"
+                            onclick="openLightbox('assets/projects/brillian.jpg', 'Brillian Medical Store')">
+                            <div class="proj-emoji-placeholder">🏥</div>
+                            <div class="proj-img-overlay"><i class="fas fa-expand-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="proj-body">
+                        <div class="proj-title">Brillian Medical Store – Web-Based Medical Equipment Store</div>
+                        <p class="proj-desc">Developed a web-based medical equipment store with product management,
+                            ordering, customer transactions, and invoice generation.</p>
+                        <div class="proj-stack">
+                            <span class="stack-tag">PHP</span><span class="stack-tag">MySQL</span><span
+                                class="stack-tag">HTML/CSS</span><span class="stack-tag">JavaScript</span>
+                        </div>
+                        <div class="proj-actions">
+                            <a href="https://github.com/ririsariii/Toko-Alat-Kesehatan-Brillian-Medical-Store"
+                                target="_blank" class="proj-btn"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card">
+                    <div class="proj-card-top">
+                        <div class="proj-img-wrap"
+                            onclick="openLightbox('assets/projects/pln-invoice.jpg', 'PLN UP3 Gresik Invoice System')">
+                            <div class="proj-emoji-placeholder">🧾</div>
+                            <div class="proj-img-overlay"><i class="fas fa-expand-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="proj-body">
+                        <div class="proj-title">Monthly Invoice Delivery System – PLN UP3 Gresik</div>
+                        <p class="proj-desc">Developed a web-based system to manage customer billing data and automate
+                            monthly invoice delivery for PLN UP3 Gresik.</p>
+                        <div class="proj-stack">
+                            <span class="stack-tag">PHP</span><span class="stack-tag">HTML/CSS</span><span
+                                class="stack-tag">MySQL</span>
+                        </div>
+                        <div class="proj-actions">
+                            <a href="https://github.com/ririsariii/Web-PLN-UP3-Gresik" target="_blank"
+                                class="proj-btn"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card">
+                    <div class="proj-card-top">
+                        <div class="proj-img-wrap"
+                            onclick="openLightbox('assets/projects/ecoharmony.jpg', 'Eco Harmony – Smart Village Website')">
+                            <div class="proj-emoji-placeholder">🌿</div>
+                            <div class="proj-img-overlay"><i class="fas fa-expand-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="proj-body">
+                        <div class="proj-title">Eco Harmony – Smart Village Website</div>
+                        <p class="proj-desc">Developed a smart village website using Laravel framework to support
+                            digital information and village service management.</p>
+                        <div class="proj-stack">
+                            <span class="stack-tag">Laravel</span><span class="stack-tag">PHP</span><span
+                                class="stack-tag">MySQL</span><span class="stack-tag">Blade</span>
+                        </div>
+                        <div class="proj-actions">
+                            <a href="https://github.com/ririsariii/eco-harmony" target="_blank" class="proj-btn"><i
+                                    class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card">
+                    <div class="proj-card-top">
+                        <div class="proj-img-wrap"
+                            onclick="openLightbox('assets/projects/odoo.jpg', 'Odoo ERP System – Martabak Ilham')">
+                            <div class="proj-emoji-placeholder">🥞</div>
+                            <div class="proj-img-overlay"><i class="fas fa-expand-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="proj-body">
+                        <div class="proj-title">Odoo ERP System – Martabak & Terang Bulan "Ilham"</div>
+                        <p class="proj-desc">Implemented and configured an Odoo-based ERP system integrating Inventory,
+                            Purchasing, Manufacturing, Sales, and Invoicing modules to support business process
+                            digitalization.</p>
+                        <div class="proj-stack">
+                            <span class="stack-tag">ODOO</span><span class="stack-tag">ERP</span><span
+                                class="stack-tag">Python</span>
+                        </div>
+                        <div class="proj-actions">
+                            <a href="https://drive.google.com/file/d/19I2GD-F08bhS_amAb71k-0vWhGoPZbWD/view?usp=sharing"
+                                target="_blank" class="proj-btn"><i class="fa-solid fa-file-lines"></i>
+                                Documentation</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card">
+                    <div class="proj-card-top">
+                        <div class="proj-img-wrap"
+                            onclick="openLightbox('assets/projects/ticketify.jpg', 'Ticketify – Ticket Booking App')">
+                            <div class="proj-emoji-placeholder">🎟️</div>
+                            <div class="proj-img-overlay"><i class="fas fa-expand-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="proj-body">
+                        <div class="proj-title">Ticketify – Ticket Booking Mobile Application</div>
+                        <p class="proj-desc">Developed an Android-based ticket booking application using Kotlin and
+                            Android Studio. Enables users to search, book, and manage transportation tickets through a
+                            modern mobile interface.</p>
+                        <div class="proj-stack">
+                            <span class="stack-tag">Kotlin</span><span class="stack-tag">Android Studio</span><span
+                                class="stack-tag">SQLite</span><span class="stack-tag">RxJava</span>
+                        </div>
+                        <div class="proj-actions">
+                            <a href="https://github.com/ririsariii/Ticketify" target="_blank" class="proj-btn"><i
+                                    class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- ===== CERTIFICATIONS ===== -->
+    <section id="certifications">
+        <div class="cert-container">
+            <div class="section-label">Credentials</div>
+            <h2 class="section-title">My <span class="grad-text">Certifications</span></h2>
+            <div class="section-divider"></div>
+
+            <div class="cert-tabs">
+                <button class="cert-tab active" onclick="filterCert('all', this)">All</button>
+                <button class="cert-tab" onclick="filterCert('bnsp', this)">BNSP</button>
+                <button class="cert-tab" onclick="filterCert('google', this)">Google</button>
+                <button class="cert-tab" onclick="filterCert('deeplearning', this)">DeepLearning.AI</button>
+                <button class="cert-tab" onclick="filterCert('dicoding', this)">Dicoding</button>
+                <button class="cert-tab" onclick="filterCert('other', this)">Others</button>
+            </div>
+
+            <div class="cert-list reveal" id="certList">
+
+                <!-- BNSP -->
+                <a href="https://drive.google.com/file/d/1DI_ZNuQwAUfpjABfO6PoLc8jrr4EUTWH/view?usp=sharing"
+                    target="_blank" class="cert-item" data-cat="bnsp">
+                    <div class="cert-logo" style="background:rgba(220,38,38,0.12);">🇮🇩</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Junior Web Programmer</div>
+                        <div class="cert-issuer">BNSP · Dec 2025 · Expires Dec 2028</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <!-- Google -->
+                <a href="https://www.coursera.org/account/accomplishments/verify/YTRABR2RGI1O" target="_blank"
+                    class="cert-item" data-cat="google">
+                    <div class="cert-logo" style="background:rgba(66,133,244,0.12);">🔵</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Using Python to Interact with the Operating System</div>
+                        <div class="cert-issuer">Google · Coursera · Sep 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.coursera.org/account/accomplishments/verify/ZN4G4SXJZZSK" target="_blank"
+                    class="cert-item" data-cat="google">
+                    <div class="cert-logo" style="background:rgba(66,133,244,0.12);">🔵</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Crash Course on Python</div>
+                        <div class="cert-issuer">Google · Coursera · Sep 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <!-- DeepLearning.AI -->
+                <a href="https://www.coursera.org/account/accomplishments/verify/WT3L81SPZQEJ" target="_blank"
+                    class="cert-item" data-cat="deeplearning">
+                    <div class="cert-logo" style="background:rgba(232,121,249,0.12);">🤖</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Build Basic Generative Adversarial Networks (GANs)</div>
+                        <div class="cert-issuer">DeepLearning.AI · Coursera · Nov 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.coursera.org/account/accomplishments/verify/ECP8I6ZVDWSF" target="_blank"
+                    class="cert-item" data-cat="deeplearning">
+                    <div class="cert-logo" style="background:rgba(232,121,249,0.12);">🤖</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Generative AI for Everyone</div>
+                        <div class="cert-issuer">DeepLearning.AI · Coursera · Nov 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.coursera.org/account/accomplishments/verify/8DHKFLPOPJWT" target="_blank"
+                    class="cert-item" data-cat="deeplearning">
+                    <div class="cert-logo" style="background:rgba(232,121,249,0.12);">🤖</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Advanced Computer Vision with TensorFlow</div>
+                        <div class="cert-issuer">DeepLearning.AI · Coursera · Nov 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.coursera.org/account/accomplishments/verify/LFRK4KA3ASBF" target="_blank"
+                    class="cert-item" data-cat="deeplearning">
+                    <div class="cert-logo" style="background:rgba(232,121,249,0.12);">🤖</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Custom and Distributed Training with TensorFlow</div>
+                        <div class="cert-issuer">DeepLearning.AI · Coursera · Nov 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.coursera.org/account/accomplishments/verify/AI5WRYZDC7VI" target="_blank"
+                    class="cert-item" data-cat="deeplearning">
+                    <div class="cert-logo" style="background:rgba(232,121,249,0.12);">🤖</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Custom Models, Layers, and Loss Functions with TensorFlow</div>
+                        <div class="cert-issuer">DeepLearning.AI · Coursera · Nov 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.coursera.org/account/accomplishments/verify/5XJGVHX0DCX0" target="_blank"
+                    class="cert-item" data-cat="deeplearning">
+                    <div class="cert-logo" style="background:rgba(232,121,249,0.12);">🤖</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Data Pipelines with TensorFlow Data Services</div>
+                        <div class="cert-issuer">DeepLearning.AI · Coursera · Nov 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.coursera.org/account/accomplishments/verify/0LR6ZP0R70UA" target="_blank"
+                    class="cert-item" data-cat="deeplearning">
+                    <div class="cert-logo" style="background:rgba(232,121,249,0.12);">🤖</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Device-based Models with TensorFlow Lite</div>
+                        <div class="cert-issuer">DeepLearning.AI · Coursera · Nov 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.coursera.org/account/accomplishments/verify/5YB18FWIT69H" target="_blank"
+                    class="cert-item" data-cat="deeplearning">
+                    <div class="cert-logo" style="background:rgba(232,121,249,0.12);">🤖</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Browser-based Models with TensorFlow.js</div>
+                        <div class="cert-issuer">DeepLearning.AI · Coursera · Nov 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.coursera.org/account/accomplishments/verify/Z5JYCIYAN7KO" target="_blank"
+                    class="cert-item" data-cat="deeplearning">
+                    <div class="cert-logo" style="background:rgba(232,121,249,0.12);">🤖</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Structuring Machine Learning Projects</div>
+                        <div class="cert-issuer">DeepLearning.AI · Coursera · Nov 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.coursera.org/account/accomplishments/verify/8ZWYQANTXGAZ" target="_blank"
+                    class="cert-item" data-cat="deeplearning">
+                    <div class="cert-logo" style="background:rgba(232,121,249,0.12);">🤖</div>
+                    <div class="cert-info">
+                        <div class="cert-name">DeepLearning.AI TensorFlow Developer Specialization</div>
+                        <div class="cert-issuer">DeepLearning.AI · Coursera · Oct 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.coursera.org/account/accomplishments/verify/IJCRBYZBWTGS" target="_blank"
+                    class="cert-item" data-cat="deeplearning">
+                    <div class="cert-logo" style="background:rgba(232,121,249,0.12);">🤖</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Sequences, Time Series and Prediction</div>
+                        <div class="cert-issuer">DeepLearning.AI · Coursera · Oct 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.coursera.org/account/accomplishments/verify/X8X8J87UFVD2" target="_blank"
+                    class="cert-item" data-cat="deeplearning">
+                    <div class="cert-logo" style="background:rgba(232,121,249,0.12);">🤖</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Natural Language Processing in TensorFlow</div>
+                        <div class="cert-issuer">DeepLearning.AI · Coursera · Oct 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.coursera.org/account/accomplishments/verify/UCFRHBC5GPJN" target="_blank"
+                    class="cert-item" data-cat="deeplearning">
+                    <div class="cert-logo" style="background:rgba(232,121,249,0.12);">🤖</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Convolutional Neural Networks in TensorFlow</div>
+                        <div class="cert-issuer">DeepLearning.AI · Coursera · Oct 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.coursera.org/account/accomplishments/verify/A2Z5KLVMLZRK" target="_blank"
+                    class="cert-item" data-cat="deeplearning">
+                    <div class="cert-logo" style="background:rgba(232,121,249,0.12);">🤖</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Introduction to TensorFlow for AI, ML, and Deep Learning</div>
+                        <div class="cert-issuer">DeepLearning.AI · Coursera · Oct 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.coursera.org/account/accomplishments/verify/U2CJGYI41BBI" target="_blank"
+                    class="cert-item" data-cat="deeplearning">
+                    <div class="cert-logo" style="background:rgba(232,121,249,0.12);">🤖</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Machine Learning Specialization</div>
+                        <div class="cert-issuer">DeepLearning.AI · Coursera · Oct 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.coursera.org/account/accomplishments/verify/W7HNZKUN6EWC" target="_blank"
+                    class="cert-item" data-cat="deeplearning">
+                    <div class="cert-logo" style="background:rgba(232,121,249,0.12);">🤖</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Unsupervised Learning, Recommenders, Reinforcement Learning</div>
+                        <div class="cert-issuer">DeepLearning.AI · Coursera · Oct 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.coursera.org/account/accomplishments/verify/0LWD2WCTO4Z0" target="_blank"
+                    class="cert-item" data-cat="deeplearning">
+                    <div class="cert-logo" style="background:rgba(232,121,249,0.12);">🤖</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Advanced Learning Algorithms</div>
+                        <div class="cert-issuer">DeepLearning.AI · Coursera · Oct 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.coursera.org/account/accomplishments/verify/7BRERP9AVV3G" target="_blank"
+                    class="cert-item" data-cat="deeplearning">
+                    <div class="cert-logo" style="background:rgba(232,121,249,0.12);">🤖</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Supervised Machine Learning: Regression and Classification</div>
+                        <div class="cert-issuer">DeepLearning.AI · Coursera · Oct 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.coursera.org/account/accomplishments/verify/D0AP5CM6NM3O" target="_blank"
+                    class="cert-item" data-cat="deeplearning">
+                    <div class="cert-logo" style="background:rgba(232,121,249,0.12);">🤖</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Linear Algebra for Machine Learning and Data Science</div>
+                        <div class="cert-issuer">DeepLearning.AI · Coursera · Oct 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <!-- Dicoding -->
+                <a href="https://www.dicoding.com/certificates/81P24GO0JZOY" target="_blank" class="cert-item"
+                    data-cat="dicoding">
+                    <div class="cert-logo" style="background:rgba(139,92,246,0.15);">⚡</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Belajar Analisis Data dengan Python</div>
+                        <div class="cert-issuer">Dicoding · Oct 2024 · Expires Oct 2027</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.dicoding.com/certificates/07Z60O0WJZQR" target="_blank" class="cert-item"
+                    data-cat="dicoding">
+                    <div class="cert-logo" style="background:rgba(139,92,246,0.15);">⚡</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Belajar Dasar Git dengan GitHub</div>
+                        <div class="cert-issuer">Dicoding · Sep 2024 · Expires Sep 2027</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.dicoding.com/certificates/6RPN12YY9X2M" target="_blank" class="cert-item"
+                    data-cat="dicoding">
+                    <div class="cert-logo" style="background:rgba(139,92,246,0.15);">⚡</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Pengenalan ke Logika Pemrograman (Programming Logic 101)</div>
+                        <div class="cert-issuer">Dicoding · Sep 2024 · Expires Sep 2027</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.dicoding.com/certificates/KEXL16160XG2" target="_blank" class="cert-item"
+                    data-cat="dicoding">
+                    <div class="cert-logo" style="background:rgba(139,92,246,0.15);">⚡</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Memulai Dasar Pemrograman untuk Menjadi Pengembang Software</div>
+                        <div class="cert-issuer">Dicoding · Sep 2024 · Expires Sep 2027</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.dicoding.com/certificates/2VX3R3D9QZYQ" target="_blank" class="cert-item"
+                    data-cat="dicoding">
+                    <div class="cert-logo" style="background:rgba(139,92,246,0.15);">⚡</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Memulai Pemrograman dengan Python</div>
+                        <div class="cert-issuer">Dicoding · Aug 2024 · Expires Aug 2027</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.dicoding.com/certificates/07Z60EKORZQR" target="_blank" class="cert-item"
+                    data-cat="dicoding">
+                    <div class="cert-logo" style="background:rgba(139,92,246,0.15);">⚡</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Belajar Dasar Structured Query Language (SQL)</div>
+                        <div class="cert-issuer">Dicoding · Jul 2024 · Expires Jul 2027</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.dicoding.com/certificates/0LZ06NOW3Z65" target="_blank" class="cert-item"
+                    data-cat="dicoding">
+                    <div class="cert-logo" style="background:rgba(139,92,246,0.15);">⚡</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Belajar Dasar Visualisasi Data</div>
+                        <div class="cert-issuer">Dicoding · Jul 2024 · Expires Jul 2027</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://www.dicoding.com/certificates/L4PQ1W50VXO1" target="_blank" class="cert-item"
+                    data-cat="dicoding">
+                    <div class="cert-logo" style="background:rgba(139,92,246,0.15);">⚡</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Belajar Dasar AI</div>
+                        <div class="cert-issuer">Dicoding · Jun 2024 · Expires Jun 2027</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <!-- Others -->
+                <a href="https://certificates.revou.co/yuliani-purwitasari-certificate-completion-damc.pdf"
+                    target="_blank" class="cert-item" data-cat="other">
+                    <div class="cert-logo" style="background:rgba(251,191,36,0.12);">🏅</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Mini Course Data Analytic</div>
+                        <div class="cert-issuer">RevoU · May 2024</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+
+                <a href="https://drive.google.com/file/d/16MOWEzTGgqBI5N-HL01F9s0N0c5UL1H8/view" target="_blank"
+                    class="cert-item" data-cat="other">
+                    <div class="cert-logo" style="background:rgba(251,191,36,0.12);">🏅</div>
+                    <div class="cert-info">
+                        <div class="cert-name">Latihan Keterampilan Manajemen Mahasiswa Tingkat Dasar</div>
+                        <div class="cert-issuer">BEM FIK UPN "Veteran" Jawa Timur · Oct 2022</div>
+                    </div>
+                    <div class="cert-badge"><i class="fas fa-external-link-alt"></i></div>
+                </a>
 
             </div>
         </div>
@@ -467,11 +974,26 @@
                         <div class="skill-group-icon">💻</div> Programming Languages
                     </div>
                     <div class="skill-tags">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">SQL</span>
-                        <span class="skill-tag">PHP</span>
-                        <span class="skill-tag">HTML/CSS</span>
-                        <span class="skill-tag">JavaScript</span>
+                        <div class="skill-tag-wrap level-expert"><span class="tag-name">Python</span>
+                            <div class="tag-level"><span class="filled"></span><span class="filled"></span><span
+                                    class="filled"></span><span class="filled"></span><span></span></div>
+                        </div>
+                        <div class="skill-tag-wrap level-expert"><span class="tag-name">SQL</span>
+                            <div class="tag-level"><span class="filled"></span><span class="filled"></span><span
+                                    class="filled"></span><span class="filled"></span><span></span></div>
+                        </div>
+                        <div class="skill-tag-wrap level-advanced"><span class="tag-name">PHP</span>
+                            <div class="tag-level"><span class="filled"></span><span class="filled"></span><span
+                                    class="filled"></span><span></span><span></span></div>
+                        </div>
+                        <div class="skill-tag-wrap level-advanced"><span class="tag-name">HTML/CSS</span>
+                            <div class="tag-level"><span class="filled"></span><span class="filled"></span><span
+                                    class="filled"></span><span></span><span></span></div>
+                        </div>
+                        <div class="skill-tag-wrap level-intermediate"><span class="tag-name">JavaScript</span>
+                            <div class="tag-level"><span class="filled"></span><span
+                                    class="filled"></span><span></span><span></span><span></span></div>
+                        </div>
                     </div>
                 </div>
 
@@ -479,22 +1001,76 @@
                     <div class="skill-group-title">
                         <div class="skill-group-icon">🛠️</div> Tools & Platforms
                     </div>
-
                     <div class="skill-tags">
-                        <span class="skill-tag">Looker Studio</span>
-                        <span class="skill-tag">Microsoft Excel</span>
-                        <span class="skill-tag">Google Colab</span>
-                        <span class="skill-tag">VS Code</span>
-                        <span class="skill-tag">TensorFlow</span>
-                        <span class="skill-tag">Keras</span>
-                        <span class="skill-tag">Jupyter Notebook</span>
-                        <span class="skill-tag">Flask</span>
-                        <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">Git & GitHub</span>
-                        <span class="skill-tag">Figma</span>
-                        <span class="skill-tag">Canva</span>
-                        <span class="skill-tag">CapCut</span>
-                        <span class="skill-tag">Odoo</span>
+                        <div class="skill-tag-wrap level-expert" title="Expert"><span class="tag-name">Looker
+                                Studio</span>
+                            <div class="tag-level"><span class="filled"></span><span class="filled"></span><span
+                                    class="filled"></span><span class="filled"></span><span></span></div>
+                        </div>
+                        <div class="skill-tag-wrap level-expert" title="Expert"><span class="tag-name">Power BI</span>
+                            <div class="tag-level"><span class="filled"></span><span class="filled"></span><span
+                                    class="filled"></span><span class="filled"></span><span></span></div>
+                        </div>
+                        <div class="skill-tag-wrap level-expert" title="Expert"><span class="tag-name">Microsoft
+                                Excel</span>
+                            <div class="tag-level"><span class="filled"></span><span class="filled"></span><span
+                                    class="filled"></span><span class="filled"></span><span></span></div>
+                        </div>
+                        <div class="skill-tag-wrap level-expert" title="Expert"><span class="tag-name">Google
+                                Colab</span>
+                            <div class="tag-level"><span class="filled"></span><span class="filled"></span><span
+                                    class="filled"></span><span class="filled"></span><span></span></div>
+                        </div>
+                        <div class="skill-tag-wrap level-expert" title="Expert"><span class="tag-name">VS Code</span>
+                            <div class="tag-level"><span class="filled"></span><span class="filled"></span><span
+                                    class="filled"></span><span class="filled"></span><span></span></div>
+                        </div>
+                        <div class="skill-tag-wrap level-advanced" title="Advanced"><span
+                                class="tag-name">TensorFlow</span>
+                            <div class="tag-level"><span class="filled"></span><span class="filled"></span><span
+                                    class="filled"></span><span></span><span></span></div>
+                        </div>
+                        <div class="skill-tag-wrap level-advanced" title="Advanced"><span class="tag-name">Keras</span>
+                            <div class="tag-level"><span class="filled"></span><span class="filled"></span><span
+                                    class="filled"></span><span></span><span></span></div>
+                        </div>
+                        <div class="skill-tag-wrap level-advanced" title="Advanced"><span class="tag-name">Jupyter
+                                Notebook</span>
+                            <div class="tag-level"><span class="filled"></span><span class="filled"></span><span
+                                    class="filled"></span><span></span><span></span></div>
+                        </div>
+                        <div class="skill-tag-wrap level-advanced" title="Advanced"><span class="tag-name">Flask</span>
+                            <div class="tag-level"><span class="filled"></span><span class="filled"></span><span
+                                    class="filled"></span><span></span><span></span></div>
+                        </div>
+                        <div class="skill-tag-wrap level-advanced" title="Advanced"><span class="tag-name">MySQL</span>
+                            <div class="tag-level"><span class="filled"></span><span class="filled"></span><span
+                                    class="filled"></span><span></span><span></span></div>
+                        </div>
+                        <div class="skill-tag-wrap level-advanced" title="Advanced"><span class="tag-name">Git &
+                                GitHub</span>
+                            <div class="tag-level"><span class="filled"></span><span class="filled"></span><span
+                                    class="filled"></span><span></span><span></span></div>
+                        </div>
+                        <div class="skill-tag-wrap level-intermediate" title="Intermediate"><span
+                                class="tag-name">Figma</span>
+                            <div class="tag-level"><span class="filled"></span><span
+                                    class="filled"></span><span></span><span></span><span></span></div>
+                        </div>
+                        <div class="skill-tag-wrap level-advanced" title="Advanced"><span class="tag-name">Canva</span>
+                            <div class="tag-level"><span class="filled"></span><span class="filled"></span><span
+                                    class="filled"></span><span></span><span></span></div>
+                        </div>
+                        <div class="skill-tag-wrap level-intermediate" title="Intermediate"><span
+                                class="tag-name">CapCut</span>
+                            <div class="tag-level"><span class="filled"></span><span
+                                    class="filled"></span><span></span><span></span><span></span></div>
+                        </div>
+                        <div class="skill-tag-wrap level-intermediate" title="Intermediate"><span
+                                class="tag-name">Odoo</span>
+                            <div class="tag-level"><span class="filled"></span><span
+                                    class="filled"></span><span></span><span></span><span></span></div>
+                        </div>
                     </div>
                 </div>
 
@@ -555,228 +1131,464 @@
         </div>
     </section>
 
-    <!-- PROJECTS -->
-    <section id="projects">
-        <div style="max-width:1200px;margin:0 auto;">
-            <div class="section-label">Portfolio</div>
-            <h2 class="section-title">My <span class="grad-text">Projects</span></h2>
+    <!-- ===== COMMITTEES ===== -->
+    <section id="committees" style="padding:80px 20px;">
+        <div style="max-width:1100px;margin:0 auto;">
+            <div class="section-label">Involvement</div>
+            <h2 class="section-title">Committee Experiences</h2>
             <div class="section-divider"></div>
-            <div class="proj-grid reveal">
+            <p style="font-size:0.85rem;color:var(--muted);margin-bottom:0.5rem;"><i class="fas fa-hand-pointer"
+                    style="margin-right:5px;color:var(--pink)"></i>Klik kartu untuk detail lengkap</p>
 
-                <div class="proj-card">
-                    <div class="proj-card-top"><span class="proj-emoji">🔬</span></div>
-                    <div class="proj-body">
-                        <div class="proj-title">Aspect-Based Sentiment Analysis – PLN Mobile App Reviews (Thesis)</div>
-                        <p class="proj-desc">Conducted aspect-based sentiment analysis using machine learning and topic
-                            modeling to identify customer opinions and service quality insights from PLN Mobile user
-                            reviews.</p>
-                        <div class="proj-stack">
-                            <span class="stack-tag">Python</span><span class="stack-tag">PHP</span><span
-                                class="stack-tag">Flask</span><span class="stack-tag">HTML/CSS</span><span
-                                class="stack-tag">ML</span>
-                        </div>
-                        <div class="proj-actions">
-                            <a href="https://github.com/ririsariii/ABSA-PLN-Mobile" target="_blank" class="proj-btn"><i
-                                    class="fab fa-github"></i> Code</a>
-                        </div>
-                    </div>
+            <div class="org-grid reveal">
+
+                <!-- Org 1: HIMASIFO Staff -->
+                <div class="org-card" onclick="openModal('modal-himasifo-staff')">
+                    <div class="org-card-emoji">🏛️</div>
+                    <div class="org-card-title">Staff Advocacy Dept.</div>
+                    <div class="org-card-sub">Himpunan Mahasiswa Sistem Informasi UPNVJT</div>
+                    <span class="org-card-year">2023 - 2024</span>
+                    <div class="org-card-hint"><i class="fas fa-expand-alt"></i>Klik untuk detail</div>
                 </div>
 
-                <div class="proj-card">
-                    <div class="proj-card-top">
-                        <span class="proj-emoji">📊</span>
-                    </div>
-
-                    <div class="proj-body">
-                        <div class="proj-title">
-                            PLN UP3 Gresik Performance Monitoring Dashboard
-                        </div>
-
-                        <p class="proj-desc">
-                            Developed an interactive Looker Studio dashboard to monitor operational
-                            and marketing performance data in real-time for PLN UP3 Gresik management.
-                        </p>
-
-                        <div class="proj-stack">
-                            <span class="stack-tag">Looker Studio</span>
-                            <span class="stack-tag">Google Sheets</span>
-                            <span class="stack-tag">SQL</span>
-                        </div>
-
-                        <div class="proj-actions">
-                            <a href="https://datastudio.google.com/reporting/d19f5609-8c39-4828-8210-f0176927875c/page/p_n00d7wpjrd"
-                                target="_blank" class="proj-btn">
-
-                                <i class="fa-solid fa-chart-line"></i> View Dashboard
-                            </a>
-                        </div>
-                    </div>
+                <!-- Org 2: HIMASIFO Head -->
+                <div class="org-card" onclick="openModal('modal-himasifo-head')">
+                    <div class="org-card-emoji">👑</div>
+                    <div class="org-card-title">Head of Advocacy Dept.</div>
+                    <div class="org-card-sub">Himpunan Mahasiswa Sistem Informasi UPNVJT</div>
+                    <span class="org-card-year">2024 - 2025</span>
+                    <div class="org-card-hint"><i class="fas fa-expand-alt"></i>Klik untuk detail</div>
                 </div>
 
-                <div class="proj-card">
-                    <div class="proj-card-top"><span class="proj-emoji">🏢</span></div>
-                    <div class="proj-body">
-                        <div class="proj-title">AdventureWorks Data Warehouse & OLAP Dashboard</div>
-                        <p class="proj-desc">Built a data warehouse and OLAP-based dashboard using Microsoft
-                            AdventureWorks database to support multidimensional business analysis and reporting.</p>
-                        <div class="proj-stack">
-                            <span class="stack-tag">MySQL</span>
-                            <span class="stack-tag">PHP</span>
-                            <span class="stack-tag">Pentaho</span>
-                            <span class="stack-tag">Mondrian OLAP</span>
-                            <span class="stack-tag">Chart.js</span>
-                            <span class="stack-tag">Plotly.js</span>
-                            <span class="stack-tag">Data Warehouse</span>
-                            <span class="stack-tag">OLAP</span>
-                        </div>
-                        <div class="proj-actions">
-                            <a href="https://github.com/ririsariii/Dashboard-DWO-OLAP-adventureworks" target="_blank"
-                                class="proj-btn"><i class="fab fa-github"></i> Code</a>
-                        </div>
-                    </div>
+                <!-- Committee 1: SITASI 2023 -->
+                <div class="org-card" onclick="openModal('modal-committee-sitasi')">
+                    <div class="org-card-emoji">🎤</div>
+                    <div class="org-card-title">Master of Ceremony — SITASI 2023</div>
+                    <div class="org-card-sub">UPN "Veteran" Jawa Timur</div>
+                    <span class="org-card-year">2023</span>
+                    <div class="org-card-hint"><i class="fas fa-expand-alt"></i>Klik untuk detail</div>
                 </div>
 
-                <div class="proj-card">
-                    <div class="proj-card-top"><span class="proj-emoji">🌱</span></div>
-                    <div class="proj-body">
-                        <div class="proj-title">Tanamore – Plant Disease Detection Mobile App</div>
-                        <p class="proj-desc">Developed ML models for plant disease detection and plant identification
-                            with 97% accuracy using TensorFlow. Led as Project Leader – selected as Top 50 Capstone
-                            Projects at Bangkit 2024.</p>
-                        <div class="proj-stack">
-                            <span class="stack-tag">TensorFlow</span>
-                            <span class="stack-tag">Keras</span>
-                            <span class="stack-tag">Python</span>
-                            <span class="stack-tag">Flask</span>
-                            <span class="stack-tag">Kotlin</span>
-                            <span class="stack-tag">Android Studio</span>
-                            <span class="stack-tag">Google Cloud</span>
-                            <span class="stack-tag">Firebase</span>
-                        </div>
-                        <div class="proj-actions">
-                            <a href="https://github.com/Tanamore" target="_blank" class="proj-btn"><i
-                                    class="fab fa-github"></i> Code</a>
-                        </div>
-                    </div>
+                <!-- Committee 2: DIMENSI 2023 -->
+                <div class="org-card" onclick="openModal('modal-committee-dimensi')">
+                    <div class="org-card-emoji">🎓</div>
+                    <div class="org-card-title">Head of Senior Companion — DIMENSI 2023</div>
+                    <div class="org-card-sub">Himpunan Mahasiswa Sistem Informasi UPNVJT</div>
+                    <span class="org-card-year">2023</span>
+                    <div class="org-card-hint"><i class="fas fa-expand-alt"></i>Klik untuk detail</div>
                 </div>
 
-                <div class="proj-card">
-                    <div class="proj-card-top"><span class="proj-emoji">🏥</span></div>
-                    <div class="proj-body">
-                        <div class="proj-title">Brillian Medical Store – Web-Based Medical Equipment Store</div>
-                        <p class="proj-desc">Developed a web-based medical equipment store with product management,
-                            ordering, customer transactions, and invoice generation.</p>
-                        <div class="proj-stack">
-                            <span class="stack-tag">PHP</span><span class="stack-tag">MySQL</span><span
-                                class="stack-tag">HTML/CSS</span><span class="stack-tag">JavaScript</span>
-                        </div>
-                        <div class="proj-actions">
-                            <a href="https://github.com/ririsariii/Toko-Alat-Kesehatan-Brillian-Medical-Store"
-                                target="_blank" class="proj-btn"><i class="fab fa-github"></i> Code</a>
-                        </div>
-                    </div>
+                <!-- Committee 3: EDISI 2023 -->
+                <div class="org-card" onclick="openModal('modal-committee-edisi')">
+                    <div class="org-card-emoji">📋</div>
+                    <div class="org-card-title">Staff Event Division — EDISI 2023</div>
+                    <div class="org-card-sub">Himpunan Mahasiswa Sistem Informasi UPNVJT</div>
+                    <span class="org-card-year">2023</span>
+                    <div class="org-card-hint"><i class="fas fa-expand-alt"></i>Klik untuk detail</div>
                 </div>
 
-                <div class="proj-card">
-                    <div class="proj-card-top"><span class="proj-emoji">🧾</span></div>
-                    <div class="proj-body">
-                        <div class="proj-title">Monthly Invoice Delivery System – PLN UP3 Gresik</div>
-                        <p class="proj-desc">Developed a web-based system to manage customer billing data and automate
-                            monthly invoice delivery for PLN UP3 Gresik.</p>
-                        <div class="proj-stack">
-                            <span class="stack-tag">PHP</span><span class="stack-tag">HTML/CSS</span><span
-                                class="stack-tag">MySQL</span>
-                        </div>
-                        <div class="proj-actions">
-                            <a href="https://github.com/ririsariii/Web-PLN-UP3-Gresik" target="_blank"
-                                class="proj-btn"><i class="fab fa-github"></i> Code</a>
-                        </div>
-                    </div>
+                <!-- Committee 4: AKSI WORKSHOP 2023 -->
+                <div class="org-card" onclick="openModal('modal-committee-aksi')">
+                    <div class="org-card-emoji">🛠️</div>
+                    <div class="org-card-title">Head of Senior Companion — AKSI Workshop 2023</div>
+                    <div class="org-card-sub">Himpunan Mahasiswa Sistem Informasi UPNVJT</div>
+                    <span class="org-card-year">2023</span>
+                    <div class="org-card-hint"><i class="fas fa-expand-alt"></i>Klik untuk detail</div>
                 </div>
 
-                <div class="proj-card">
-                    <div class="proj-card-top"><span class="proj-emoji">🌿</span></div>
-                    <div class="proj-body">
-                        <div class="proj-title">Eco Harmony – Smart Village Website</div>
-                        <p class="proj-desc">Developed a smart village website using Laravel framework to support
-                            digital information and village service management.</p>
-                        <div class="proj-stack">
-                            <span class="stack-tag">Laravel</span><span class="stack-tag">PHP</span><span
-                                class="stack-tag">MySQL</span><span class="stack-tag">Blade</span>
-                        </div>
-                        <div class="proj-actions">
-                            <a href="https://github.com/ririsariii/eco-harmony" target="_blank" class="proj-btn"><i
-                                    class="fab fa-github"></i> Code</a>
-                        </div>
-                    </div>
+                <!-- Committee 5: PENSI 2023 -->
+                <div class="org-card" onclick="openModal('modal-committee-pensi')">
+                    <div class="org-card-emoji">📝</div>
+                    <div class="org-card-title">Secretary, Crosscheck Division — PENSI 2023</div>
+                    <div class="org-card-sub">Himpunan Mahasiswa Sistem Informasi UPNVJT</div>
+                    <span class="org-card-year">2023</span>
+                    <div class="org-card-hint"><i class="fas fa-expand-alt"></i>Klik untuk detail</div>
                 </div>
 
-                <div class="proj-card">
-                    <div class="proj-card-top">
-                        <span class="proj-emoji">🥞</span>
-                    </div>
-
-                    <div class="proj-body">
-                        <div class="proj-title">
-                            Odoo ERP System – Martabak & Terang Bulan "Ilham"
-                        </div>
-
-                        <p class="proj-desc">
-                            Implemented and configured an Odoo-based ERP system integrating
-                            Inventory, Purchasing, Manufacturing, Sales, and Invoicing modules
-                            to support business process digitalization.
-                        </p>
-
-                        <div class="proj-stack">
-                            <span class="stack-tag">ODOO</span>
-                            <span class="stack-tag">ERP</span>
-                            <span class="stack-tag">Python</span>
-                        </div>
-
-                        <div class="proj-actions">
-                            <a href="https://drive.google.com/file/d/19I2GD-F08bhS_amAb71k-0vWhGoPZbWD/view?usp=sharing"
-                                target="_blank" class="proj-btn">
-
-                                <i class="fa-solid fa-file-lines"></i> Documentation
-                            </a>
-                        </div>
-                    </div>
+                <!-- Committee 6: LKMM-TD VISKRAF 2023 -->
+                <div class="org-card" onclick="openModal('modal-committee-lkmm')">
+                    <div class="org-card-emoji">🧠</div>
+                    <div class="org-card-title">Staff Event Division — LKMM-TD VISKRAF 2023</div>
+                    <div class="org-card-sub">BEM Fakultas Ilmu Komputer UPNVJT</div>
+                    <span class="org-card-year">2023</span>
+                    <div class="org-card-hint"><i class="fas fa-expand-alt"></i>Klik untuk detail</div>
                 </div>
-                <div class="proj-card">
-                    <div class="proj-card-top">
-                        <span class="proj-emoji">🎟️</span>
-                    </div>
 
-                    <div class="proj-body">
-                        <div class="proj-title">
-                            Ticketify – Ticket Booking Mobile Application
-                        </div>
+                <!-- Committee 7: COD FASILKOM -->
+                <div class="org-card" onclick="openModal('modal-committee-cod')">
+                    <div class="org-card-emoji">🔒</div>
+                    <div class="org-card-title">Security & Licensing — Connection Day FASILKOM</div>
+                    <div class="org-card-sub">BEM Fakultas Ilmu Komputer UPNVJT</div>
+                    <span class="org-card-year">2022</span>
+                    <div class="org-card-hint"><i class="fas fa-expand-alt"></i>Klik untuk detail</div>
+                </div>
 
-                        <p class="proj-desc">
-                            Developed an Android-based ticket booking application using Kotlin
-                            and Android Studio. The application enables users to search, book,
-                            and manage transportation tickets through a modern mobile interface.
-                        </p>
+                <!-- Committee 8: MSIB Batch 6 Socialization -->
+                <div class="org-card" onclick="openModal('modal-committee-msib')">
+                    <div class="org-card-emoji">🎙️</div>
+                    <div class="org-card-title">MC & Moderator — MSIB Batch 6 Socialization</div>
+                    <div class="org-card-sub">UPN "Veteran" Jawa Timur, Faculty of Computer Science</div>
+                    <span class="org-card-year">2023</span>
+                    <div class="org-card-hint"><i class="fas fa-expand-alt"></i>Klik untuk detail</div>
+                </div>
 
-                        <div class="proj-stack">
-                            <span class="stack-tag">Kotlin</span>
-                            <span class="stack-tag">Android Studio</span>
-                            <span class="stack-tag">SQLite</span>
-                            <span class="stack-tag">RxJava</span>
-                        </div>
+                <!-- Committee 9: Open Talk -->
+                <div class="org-card" onclick="openModal('modal-committee-opentalk')">
+                    <div class="org-card-emoji">💬</div>
+                    <div class="org-card-title">MC — Open Talk by Advocacy Dept.</div>
+                    <div class="org-card-sub">Himpunan Mahasiswa Sistem Informasi UPNVJT</div>
+                    <span class="org-card-year">2023</span>
+                    <div class="org-card-hint"><i class="fas fa-expand-alt"></i>Klik untuk detail</div>
+                </div>
 
-                        <div class="proj-actions">
-                            <a href="https://github.com/ririsariii/Ticketify" target="_blank" class="proj-btn">
-
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                        </div>
-                    </div>
+                <!-- Committee 10: International Conference Presenter -->
+                <div class="org-card" onclick="openModal('modal-committee-sinergy')">
+                    <div class="org-card-emoji">🌐</div>
+                    <div class="org-card-title">Presenter — Sinergy International Conference</div>
+                    <div class="org-card-sub">Scholars International Conference on Research and Global Youth</div>
+                    <span class="org-card-year">2026</span>
+                    <div class="org-card-hint"><i class="fas fa-expand-alt"></i>Klik untuk detail</div>
                 </div>
 
             </div>
         </div>
     </section>
+
+    <!-- MODALS: Committees -->
+    <div class="modal-overlay" id="modal-himasifo-staff" onclick="closeModalIfBg(event, this)">
+        <div class="modal-box">
+            <button class="modal-close" onclick="closeModal('modal-himasifo-staff')"><i
+                    class="fas fa-times"></i></button>
+            <div class="modal-img">
+                <img src="assets/advokeos.jpg" alt="HIMASIFO">
+            </div>
+            <span class="modal-tag">Organization</span>
+            <div class="modal-title">Staff – Advocacy Department</div>
+            <div class="modal-org">Himpunan Mahasiswa Sistem Informasi UPNVJT</div>
+            <div class="modal-period">2023 – 2024</div>
+            <ul class="modal-list">
+                <li>Assisted students in academic and non-academic matters, including aspiration and advocacy services.
+                </li>
+                <li>Managed "Advormate," a centralized student complaint and aspiration platform.</li>
+                <li>Facilitated communication between students and university bureaucracy.</li>
+            </ul>
+            <div class="modal-docs">
+                <a href="https://drive.google.com/file/d/1GW7_zzrvtzTiZx6VixewgOJmde_mdhNw/view?usp=drive_link"
+                    target="_blank" class="modal-doc-btn"><i class="fas fa-certificate"></i> Staff Certificate</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-himasifo-head" onclick="closeModalIfBg(event, this)">
+        <div class="modal-box">
+            <button class="modal-close" onclick="closeModal('modal-himasifo-head')"><i
+                    class="fas fa-times"></i></button>
+            <div class="modal-img">
+                <img src="assets/advomg.jpg" alt="HIMASIFO">
+            </div>
+            <span class="modal-tag">Organization</span>
+            <div class="modal-title">Head – Advocacy Department</div>
+            <div class="modal-org">Himpunan Mahasiswa Sistem Informasi UPNVJT</div>
+            <div class="modal-period">2023 – 2024</div>
+            <ul class="modal-list">
+                <li>Led the Advocacy Department in coordinating student programs and advocacy initiatives.</li>
+                <li>Coordinated advocacy programs and facilitated communication between students and university
+                    bureaucracy.</li>
+                <li>Managed team members and organized regular department meetings and events.</li>
+                <li>Oversaw "Advormate" platform development and student complaint resolution.</li>
+            </ul>
+            <div class="modal-docs">
+                <a href="https://drive.google.com/file/d/1f2GC2dKvmAP6Odbs2RhvWECHCHVnJgDu/view?usp=drive_link"
+                    target="_blank" class="modal-doc-btn"><i class="fas fa-certificate"></i> Head Certificate</a>
+            </div>
+            <div class="exp-activity-gallery" style="margin-top:1rem;">
+                <img src="assets/himasifo.jpg" alt="HIMASIFO"
+                    onclick="openLightbox(this.src, 'HIMASIFO – Advocacy Dept.')">
+            </div>
+        </div>
+    </div>
+
+    <!-- SITASI 2023 -->
+    <div class="modal-overlay" id="modal-committee-sitasi" onclick="closeModalIfBg(event, this)">
+        <div class="modal-box">
+            <button class="modal-close" onclick="closeModal('modal-committee-sitasi')"><i
+                    class="fas fa-times"></i></button>
+            <div class="modal-img">
+                <img src="assets/mcsitasi.JPEG" alt="HIMASIFO">
+            </div>
+            <span class="modal-tag">Committee</span>
+            <div class="modal-title">Master of Ceremony — Seminar Nasional Teknologi dan Sistem Informasi (SITASI) 2023
+            </div>
+            <div class="modal-org">UPN "Veteran" Jawa Timur</div>
+            <div class="modal-period">September 2023 · 1 month</div>
+            <ul class="modal-list">
+                <li>Hosted the national seminar themed <em>"Digital Transformation in the Implementation of Smart
+                        Villages as an Effort to Realize National Defense Values."</em></li>
+                <li>Ensured smooth event flow for all participants, lecturers, and invited speakers.</li>
+            </ul>
+            <p style="font-size:0.82rem;color:var(--muted);margin-top:0.75rem;"><strong>Speakers:</strong> Dr. Denny
+                Trias Utomo S.Si.,MT · Nenny Herdianawati, S.E., M.MA. · Prisa Marga Kusumantara, S.Kom., M.Cs · Hamzah
+                Fathoni</p>
+            <div class="modal-docs">
+                <a href="https://drive.google.com/file/d/1p0Af1cIkxDOy6RUixZvv6iTOMhyfUQ_W/view?usp=drive_link"
+                    target="_blank" class="modal-doc-btn"><i class="fas fa-certificate"></i> View Certificate</a>
+            </div>
+            <div class="exp-activity-gallery" style="margin-top:1rem;">
+                <img src="assets/sitasi.JPEG" alt="SITASI"
+                    onclick="openLightbox(this.src, 'SITASI - Master of Ceremony')">
+            </div>
+        </div>
+    </div>
+
+    <!-- DIMENSI 2023 -->
+    <div class="modal-overlay" id="modal-committee-dimensi" onclick="closeModalIfBg(event, this)">
+        <div class="modal-box">
+            <button class="modal-close" onclick="closeModal('modal-committee-dimensi')"><i
+                    class="fas fa-times"></i></button>
+            <div class="modal-img">
+                <img src="assets/dimensi.JPG" alt="HIMASIFO">
+            </div>
+            <span class="modal-tag">Committee</span>
+            <div class="modal-title">Head of Senior Companion Division — DIMENSI (Studi Mengenal Sistem Informasi) 2023
+            </div>
+            <div class="modal-org">Himpunan Mahasiswa Sistem Informasi UPN "Veteran" Jawa Timur</div>
+            <div class="modal-period">July – August 2023 · 2 months</div>
+            <ul class="modal-list">
+                <li>Managed and coordinated 20 members of the senior companion division.</li>
+                <li>Determined roles and responsibilities for each member and communicated effectively with division and
+                    committee leaders.</li>
+                <li>Ensured all division tasks were completed on time and evaluated post-event performance.</li>
+                <li>Accompanied new students in getting acquainted with the Information Systems environment and acted as
+                    intermediary between new students and faculty, administrative staff, and other departments.</li>
+                <li>Coordinated group activities and helped build positive relationships among new students.</li>
+            </ul>
+            <div class="modal-docs">
+                <a href="https://drive.google.com/file/d/1kpJQcI2QEaYlbrP2JtfWbYrxFeqQMENB/view?usp=drive_link"
+                    target="_blank" class="modal-doc-btn"><i class="fas fa-certificate"></i>
+                    Certificate</a>
+            </div>
+            <div class="exp-activity-gallery" style="margin-top:1rem;">
+                <img src="assets/dimensi2.JPG" alt="DIMENSI" onclick="openLightbox(this.src, 'DIMENSI - SP')">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- EDISI 2023 -->
+    <div class="modal-overlay" id="modal-committee-edisi" onclick="closeModalIfBg(event, this)">
+        <div class="modal-box">
+            <button class="modal-close" onclick="closeModal('modal-committee-edisi')"><i
+                    class="fas fa-times"></i></button>
+            <div class="modal-img">
+                <img src="assets/edisi.jpeg" alt="HIMASIFO">
+            </div>
+            <span class="modal-tag">Committee</span>
+            <div class="modal-title">Staff of Event Division — EDISI (Eksplorasi Diri Sistem Informasi) 2023</div>
+            <div class="modal-org">Himpunan Mahasiswa Sistem Informasi UPN "Veteran" Jawa Timur</div>
+            <div class="modal-period">August – September 2023 · 2 months</div>
+            <ul class="modal-list">
+                <li>Created event rundowns and took meeting minutes at every coordination session.</li>
+                <li>Served as MC during Technical Meetings and as moderator for resource persons.</li>
+                <li>Prepared all logistical needs for the smooth running of the event.</li>
+                <li>Successfully executed the event on time and in accordance with the established rundown.</li>
+            </ul>
+            <div class="modal-docs">
+                <a href="https://drive.google.com/file/d/1x20sLcz6Rf_Typ4LH6wrorSJAZ7KIIlq/view?usp=drive_link"
+                    target="_blank" class="modal-doc-btn"><i class="fas fa-certificate"></i>
+                    Certificate</a>
+            </div>
+            <div class="exp-activity-gallery" style="margin-top:1rem;">
+                <img src="assets/edisi2.jpeg" alt="EDISI" onclick="openLightbox(this.src, 'EDISI - Acara')">
+                <img src="assets/edisi3.JPG" alt="EDISI" onclick="openLightbox(this.src, 'EDISI - Acara')">
+            </div>
+        </div>
+    </div>
+
+    <!-- AKSI WORKSHOP 2023 -->
+    <div class="modal-overlay" id="modal-committee-aksi" onclick="closeModalIfBg(event, this)">
+        <div class="modal-box">
+            <button class="modal-close" onclick="closeModal('modal-committee-aksi')"><i
+                    class="fas fa-times"></i></button>
+            <div class="modal-img">
+                <img src="assets/aksi.JPG" alt="HIMASIFO">
+            </div>
+            <span class="modal-tag">Committee</span>
+            <div class="modal-title">Head of Senior Companion — AKSI WORKSHOP 2023</div>
+            <div class="modal-org">Himpunan Mahasiswa Sistem Informasi UPN "Veteran" Jawa Timur</div>
+            <div class="modal-period">August 2023 · 1 month</div>
+            <ul class="modal-list">
+                <li>Crosschecked the attendance of new students throughout the workshop.</li>
+                <li>Evaluated the performance of each division member after the event.</li>
+            </ul>
+            <div class="modal-docs">
+                <a href="https://drive.google.com/file/d/1xfgovqd9kWnCaJjFNg-yjXqEvBuoy-al/view?usp=drive_link"
+                    target="_blank" class="modal-doc-btn"><i class="fas fa-certificate"></i>
+                    Certificate</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- PENSI 2023 -->
+    <div class="modal-overlay" id="modal-committee-pensi" onclick="closeModalIfBg(event, this)">
+        <div class="modal-box">
+            <button class="modal-close" onclick="closeModal('modal-committee-pensi')"><i
+                    class="fas fa-times"></i></button>
+            <div class="modal-img">
+                <img src="assets/pensi.JPG" alt="HIMASIFO">
+            </div>
+            <span class="modal-tag">Committee</span>
+            <div class="modal-title">Secretary, Crosscheck & Assessment Division — PENSI (Pekan Serasi) 2023</div>
+            <div class="modal-org">Himpunan Mahasiswa Sistem Informasi UPN "Veteran" Jawa Timur</div>
+            <div class="modal-period">October – November 2023 · 2 months</div>
+            <ul class="modal-list">
+                <li>Recorded every discussion held during division meetings.</li>
+                <li>Carried out crosschecks and assessments of new student attendance and assignment completion.</li>
+                <li>Accompanied new students during the event and provided cadre scores based on crosscheck results,
+                    attendance, and activeness.</li>
+            </ul>
+            <div class="modal-docs">
+                <a href="https://drive.google.com/file/d/1zx6q2oqBr6t3Bb8U9VENJdBaRqEiNgO1/view?usp=drive_link"
+                    target="_blank" class="modal-doc-btn"><i class="fas fa-certificate"></i>
+                    Certificate</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- LKMM-TD VISKRAF 2023 -->
+    <div class="modal-overlay" id="modal-committee-lkmm" onclick="closeModalIfBg(event, this)">
+        <div class="modal-box">
+            <button class="modal-close" onclick="closeModal('modal-committee-lkmm')"><i
+                    class="fas fa-times"></i></button>
+            <div class="modal-img">
+                <img src="assets/lkmm.jpg" alt="HIMASIFO">
+            </div>
+            <span class="modal-tag">Committee</span>
+            <div class="modal-title">Staff of Event Division — LKMM-TD VISKRAF 2023</div>
+            <div class="modal-org">BEM Fakultas Ilmu Komputer UPN "Veteran" Jawa Timur</div>
+            <div class="modal-period">September – October 2023 · 2 months</div>
+            <ul class="modal-list">
+                <li>Created a detailed event rundown and technical outbound plan for participants.</li>
+                <li>Prepared the point system and assessment criteria for LKMM-TD participants.</li>
+                <li>Produced the event guidebook and interactive PowerPoint presentations for meetings and event days.
+                </li>
+                <li>Designed pretest and posttest questions and served as timekeeper during the event.</li>
+                <li>Recapped outbound points after each activity.</li>
+            </ul>
+            <div class="modal-docs">
+                <a href="https://drive.google.com/file/d/1aMxW5piPTQDUNVGQeJE_bMrugqoLvWE7/view?usp=drive_link"
+                    target="_blank" class="modal-doc-btn"><i class="fas fa-certificate"></i>
+                    Certificate</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONNECTION DAY FASILKOM -->
+    <div class="modal-overlay" id="modal-committee-cod" onclick="closeModalIfBg(event, this)">
+        <div class="modal-box">
+            <button class="modal-close" onclick="closeModal('modal-committee-cod')"><i
+                    class="fas fa-times"></i></button>
+            <div class="modal-img">
+                <img src="assets/cod.JPG" alt="HIMASIFO">
+            </div>
+            <span class="modal-tag">Committee</span>
+            <div class="modal-title">Member of Security & Licensing Division — Connection Day (COD) FASILKOM</div>
+            <div class="modal-org">BEM Fakultas Ilmu Komputer UPN "Veteran" Jawa Timur</div>
+            <div class="modal-period">November 2022 – February 2023 · 4 months</div>
+            <ul class="modal-list">
+                <li>Drafted rules and regulations for both committee members and event participants.</li>
+                <li>Guarded the venue during the event to maintain security and order.</li>
+                <li>Managed student permit requests throughout the event.</li>
+            </ul>
+            <div class="modal-docs">
+                <a href="https://drive.google.com/file/d/11mqZdcFdwmwYyHKlUy5R_S-9Cb_F-ZIM/view?usp=drive_link"
+                    target="_blank" class="modal-doc-btn"><i class="fas fa-certificate"></i>
+                    Certificate</a>
+            </div>
+            <div class="exp-activity-gallery" style="margin-top:1rem;">
+                <img src="assets/cod2.JPG" alt="COD" onclick="openLightbox(this.src, 'COD - Kemzin')">
+            </div>
+        </div>
+    </div>
+
+    <!-- MSIB BATCH 6 SOCIALIZATION -->
+    <div class="modal-overlay" id="modal-committee-msib" onclick="closeModalIfBg(event, this)">
+        <div class="modal-box">
+            <button class="modal-close" onclick="closeModal('modal-committee-msib')"><i
+                    class="fas fa-times"></i></button>
+            <div class="modal-img">
+                <img src="assets/msib6.jpg" alt="HIMASIFO">
+            </div>
+            <span class="modal-tag">Committee</span>
+            <div class="modal-title">Master of Ceremony & Moderator — MSIB Batch 6 Socialization</div>
+            <div class="modal-org">Faculty of Computer Science, UPN "Veteran" Jawa Timur</div>
+            <div class="modal-period">November 2023 · 1 month</div>
+            <ul class="modal-list">
+                <li>Guided the course of the socialization event for MSIB Batch 6.</li>
+                <li>Facilitated discussions with the university bureaucracy to ensure complete and accurate
+                    dissemination of MSIB Batch 6 information to students.</li>
+            </ul>
+            <p style="font-size:0.82rem;color:var(--muted);margin-top:0.75rem;"><strong>Speakers:</strong> Dr. Ir. I
+                Gede Susrama Mas Diyasa, ST., MT. · Eka Prakarsa Mandyartha, ST, M.KOM · Agung Brastama Putra, S.Kom,
+                M.Kom · Tresna Maulana Fahrudin, S.ST., M.T.</p>
+            <div class="exp-activity-gallery" style="margin-top:1rem;">
+                <img src="assets/msib62.jpg" alt="MSIB Batch 6 Socialization"
+                    onclick="openLightbox(this.src, 'MSIB Batch 6 Socialization')">
+            </div>
+        </div>
+    </div>
+
+    <!-- OPEN TALK -->
+    <div class="modal-overlay" id="modal-committee-opentalk" onclick="closeModalIfBg(event, this)">
+        <div class="modal-box">
+            <button class="modal-close" onclick="closeModal('modal-committee-opentalk')"><i
+                    class="fas fa-times"></i></button>
+            <div class="modal-img">
+                <img src="assets/opentalk2.png" alt="HIMASIFO">
+            </div>
+            <span class="modal-tag">Committee</span>
+            <div class="modal-title">Master of Ceremony — "Open Talk" Event by Advocacy Department</div>
+            <div class="modal-org">Himpunan Mahasiswa Sistem Informasi UPN "Veteran" Jawa Timur</div>
+            <div class="modal-period">September 2023 · 1 month</div>
+            <ul class="modal-list">
+                <li>Guided the entire course of the Open Talk event.</li>
+                <li>Facilitated discussions between students and university bureaucracy to ensure all questions and
+                    complaints from the Information Systems major were addressed.</li>
+            </ul>
+            <div class="exp-activity-gallery" style="margin-top:1rem;">
+                <img src="assets/opentalk.jpg" alt="Open Talk" onclick="openLightbox(this.src, 'Open Talk - MC')">
+            </div>
+        </div>
+    </div>
+
+    <!-- SINERGY INTERNATIONAL CONFERENCE -->
+    <div class="modal-overlay" id="modal-committee-sinergy" onclick="closeModalIfBg(event, this)">
+        <div class="modal-box">
+            <button class="modal-close" onclick="closeModal('modal-committee-sinergy')"><i
+                    class="fas fa-times"></i></button>
+            <div class="modal-img">
+                <img src="assets/presenter.png" alt="HIMASIFO">
+            </div>
+            <span class="modal-tag">Academic</span>
+            <div class="modal-title">Presenter — Proceeding of Sinergy: Scholars International Conference on Research
+                and Global Youth</div>
+            <div class="modal-org">Scholars International Conference</div>
+            <div class="modal-period">February 2026 – Present</div>
+            <ul class="modal-list">
+                <li>Presented research at an international scholarly conference focused on research and global youth.
+                </li>
+            </ul>
+            <div class="modal-docs">
+                <a href="https://drive.google.com/file/d/1h6IrZ11-lOaa-yQCf2VWKCVGdjEZ7aKH/view?usp=sharing"
+                    target="_blank" class="modal-doc-btn"><i class="fas fa-certificate"></i> Presenter Certificate</a>
+            </div>
+            <div class="exp-activity-gallery" style="margin-top:1rem;">
+                <img src="assets/presenter2.png" alt="SINERGY - Presenter" onclick="openLightbox(this.src, 'SINERGY - Presenter')">
+            </div>
+        </div>
+    </div>
+
+
 
     <!-- CONTACT -->
     <section id="contact">
@@ -846,9 +1658,15 @@
     </footer>
 
     <!-- Scroll Top -->
-    <button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">
-        <i class="fas fa-arrow-up"></i>
-    </button>
+    <button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i
+            class="fas fa-arrow-up"></i></button>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <button class="lightbox-close" onclick="closeLightbox()"><i class="fas fa-times"></i></button>
+        <img id="lightboxImg" src="" alt="">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
 
     <script>
         // Custom cursor
@@ -858,7 +1676,7 @@
         document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; cursor.style.left = mx + 'px'; cursor.style.top = my + 'px'; });
         function animRing() { rx += (mx - rx) * 0.12; ry += (my - ry) * 0.12; ring.style.left = rx + 'px'; ring.style.top = ry + 'px'; requestAnimationFrame(animRing); }
         animRing();
-        document.querySelectorAll('a,button,.proj-card,.ach-card,.skill-tag').forEach(el => {
+        document.querySelectorAll('a,button,.proj-card,.ach-card,.skill-tag,.org-card').forEach(el => {
             el.addEventListener('mouseenter', () => { cursor.style.transform = 'translate(-50%,-50%) scale(2)'; ring.style.transform = 'translate(-50%,-50%) scale(1.5)'; ring.style.borderColor = 'var(--pink)'; });
             el.addEventListener('mouseleave', () => { cursor.style.transform = 'translate(-50%,-50%) scale(1)'; ring.style.transform = 'translate(-50%,-50%) scale(1)'; ring.style.borderColor = 'var(--purple-light)'; });
         });
@@ -891,6 +1709,48 @@
             sections.forEach(s => { if (window.scrollY >= s.offsetTop - 100) cur = s.id; });
             navLinks.forEach(a => { a.style.color = a.getAttribute('href') === '#' + cur ? 'var(--white)' : ''; });
         });
+
+        // Certification filter
+        function filterCert(cat, btn) {
+            document.querySelectorAll('.cert-tab').forEach(t => t.classList.remove('active'));
+            btn.classList.add('active');
+            document.querySelectorAll('.cert-item').forEach(item => {
+                item.style.display = (cat === 'all' || item.dataset.cat === cat) ? 'flex' : 'none';
+            });
+        }
+
+        // Modal open/close
+        function openModal(id) {
+            document.getElementById(id).classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeModal(id) {
+            document.getElementById(id).classList.remove('open');
+            document.body.style.overflow = '';
+        }
+        function closeModalIfBg(e, el) {
+            if (e.target === el) { el.classList.remove('open'); document.body.style.overflow = ''; }
+        }
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape') {
+                document.querySelectorAll('.modal-overlay.open').forEach(m => m.classList.remove('open'));
+                closeLightbox();
+                document.body.style.overflow = '';
+            }
+        });
+
+        // Lightbox
+        function openLightbox(src, caption) {
+            const lb = document.getElementById('lightbox');
+            document.getElementById('lightboxImg').src = src;
+            document.getElementById('lightboxCaption').textContent = caption || '';
+            lb.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('open');
+            document.body.style.overflow = '';
+        }
     </script>
 </body>
 
