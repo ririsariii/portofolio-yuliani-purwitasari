@@ -454,33 +454,57 @@ body.custom-cursor{
     cursor:none;
 }
 
+/* =====================================================
+   CURSOR FIX — Ganti blok .cursor dan .cursor-ring
+   yang lama di style.css dengan kode ini
+   ===================================================== */
+
 /* ===== CUSTOM CURSOR ===== */
-.cursor {
+.cursor,
+.cursor-ring {
     position: fixed;
-    width: 12px;
-    height: 12px;
-    background: var(--pink);
+    top: 0;
+    left: 0;
     border-radius: 50%;
     pointer-events: none;
-    z-index: 10000;
+    will-change: left, top;
+    backface-visibility: hidden;
+}
+
+.cursor {
+    width: 10px;
+    height: 10px;
+    background: var(--pink);
+    z-index: 10001;
     transform: translate(-50%, -50%);
-    transition: transform 0.1s, background 0.3s;
+    /* Hanya size & warna yang di-transition, bukan posisi */
+    transition: width 0.15s ease, height 0.15s ease,
+                background 0.15s ease, opacity 0.2s ease;
     mix-blend-mode: screen;
 }
 
 .cursor-ring {
-    position: fixed;
-    width: 36px;
-    height: 36px;
+    width: 30px;
+    height: 30px;
     border: 1.5px solid var(--purple-light);
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: 9999;
+    z-index: 10000;
     transform: translate(-50%, -50%);
-    transition: all 0.25s ease;
+    transition: width 0.2s ease, height 0.2s ease,
+                border-color 0.2s ease, opacity 0.2s ease;
     mix-blend-mode: screen;
 }
 
+/* State saat hover elemen interaktif */
+body.cursor-hover .cursor {
+    width: 14px;
+    height: 14px;
+}
+
+body.cursor-hover .cursor-ring {
+    width: 42px;
+    height: 42px;
+    border-color: var(--pink);
+}
 /* ===== NOISE OVERLAY ===== */
 body::before {
     content: '';

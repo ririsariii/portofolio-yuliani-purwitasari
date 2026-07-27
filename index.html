@@ -386,7 +386,7 @@
             </div>
         </div>
     </section>
-    
+
     <!-- PROJECTS -->
     <section id="projects">
         <div style="max-width:1200px;margin:0 auto;">
@@ -398,7 +398,7 @@
                 <div class="proj-card">
                     <div class="proj-card-top">
                         <div class="proj-img-wrap"
-                            onclick="openLightbox('assets/projects/absa.jpg', 'Aspect-Based Sentiment Analysis – PLN Mobile')">
+                            onclick="openLightbox('assets/projects/absa.png', 'Aspect-Based Sentiment Analysis – PLN Mobile')">
                             <div class="proj-emoji-placeholder">🔬</div>
                             <div class="proj-img-overlay"><i class="fas fa-expand-alt"></i></div>
                         </div>
@@ -419,11 +419,69 @@
                                 class="proj-btn">
                                 <i class="fas fa-globe"></i> Live Demo
                             </a>
-                            <a href="https://github.com/ririsariii/ABSA-PLN-Mobile" target="_blank" class="proj-btn"><i
-                                    class="fab fa-github"></i> Code</a>
+                            <a href="https://github.com/ririsariii/ABSA-PLN-Mobile" target="_blank" class="proj-btn">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <button class="proj-btn"
+                                onclick="openVideoModal('assets/projects/absa-plnmobile.mp4', 'ABSA PLN Mobile – Video Demo')">
+                                <i class="fas fa-play-circle"></i> Video Demo
+                            </button>
                         </div>
                     </div>
                 </div>
+
+                <div class="proj-card">
+                    <div class="proj-card-top">
+                        <div class="proj-img-wrap"
+                            onclick="openLightbox('assets/projects/eastjava-absa.jpg', 'East Java Tourism ABSA Dashboard')">
+                            <div class="proj-emoji-placeholder">🗺️</div>
+                            <div class="proj-img-overlay"><i class="fas fa-expand-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="proj-body">
+                        <div class="proj-title">East Java Tourism ABSA Dashboard</div>
+
+                        <!-- Badge "Thesis / Research" opsional — hapus jika tidak perlu -->
+                        <div class="proj-badges" style="display:flex;gap:6px;margin-bottom:.6rem;flex-wrap:wrap;">
+                            <span style="font-size:.7rem;font-weight:700;padding:3px 10px;border-radius:100px;
+                         background:rgba(168,85,247,.15);color:#c084fc;
+                         border:1px solid rgba(168,85,247,.3);">🤖 Deep Learning</span>
+                            <span style="font-size:.7rem;font-weight:700;padding:3px 10px;border-radius:100px;
+                         background:rgba(236,72,153,.12);color:#f472b6;
+                         border:1px solid rgba(236,72,153,.25);">📊 NLP / ABSA</span>
+                        </div>
+
+                        <p class="proj-desc">
+                            Multi-task IndoBERT-based ABSA system trained on ±35.000 tourism reviews from
+                            Google Maps, TripAdvisor, X, and YouTube across 9 East Java destinations.
+                            Achieves <strong>89.41% aspect-detection accuracy</strong> and
+                            <strong>81.25% macro F1-score</strong>. Includes an interactive Flask dashboard
+                            for text &amp; CSV analysis, destination comparison, sentiment trends, complaint
+                            monitoring, and data-driven recommendations — with an end-to-end pipeline from
+                            preprocessing to dataset lifecycle management.
+                        </p>
+
+                        <div class="proj-stack">
+                            <span class="stack-tag">Python</span>
+                            <span class="stack-tag">IndoBERT</span>
+                            <span class="stack-tag">Flask</span>
+                            <span class="stack-tag">SQLAlchemy</span>
+                            <span class="stack-tag">Chart.js</span>
+                            <span class="stack-tag">JavaScript</span>
+                            <span class="stack-tag">HTML/CSS</span>
+                            <span class="stack-tag">Deep Learning</span>
+                        </div>
+
+                        <div class="proj-actions">
+                            <!-- Video demo lokal — pakai onclick untuk buka modal video -->
+                            <button class="proj-btn"
+                                onclick="openVideoModal('assets/projects/eastjava-absa-demo.mp4','East Java Tourism ABSA Dashboard – Demo')">
+                                <i class="fas fa-play-circle"></i> Video Demo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
 
                 <div class="proj-card">
                     <div class="proj-card-top">
@@ -1675,18 +1733,70 @@
         <div class="lightbox-caption" id="lightboxCaption"></div>
     </div>
 
+
     <script>
-        // Custom cursor
-        const cursor = document.getElementById('cursor');
-        const ring = document.getElementById('cursorRing');
-        let mx = 0, my = 0, rx = 0, ry = 0;
-        document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; cursor.style.left = mx + 'px'; cursor.style.top = my + 'px'; });
-        function animRing() { rx += (mx - rx) * 0.12; ry += (my - ry) * 0.12; ring.style.left = rx + 'px'; ring.style.top = ry + 'px'; requestAnimationFrame(animRing); }
-        animRing();
-        document.querySelectorAll('a,button,.proj-card,.ach-card,.skill-tag,.org-card').forEach(el => {
-            el.addEventListener('mouseenter', () => { cursor.style.transform = 'translate(-50%,-50%) scale(2)'; ring.style.transform = 'translate(-50%,-50%) scale(1.5)'; ring.style.borderColor = 'var(--pink)'; });
-            el.addEventListener('mouseleave', () => { cursor.style.transform = 'translate(-50%,-50%) scale(1)'; ring.style.transform = 'translate(-50%,-50%) scale(1)'; ring.style.borderColor = 'var(--purple-light)'; });
-        });
+
+        (function () {
+            const dot = document.getElementById('cursor');
+            const ring = document.getElementById('cursorRing');
+
+            if (!dot || !ring) return;
+
+            let mx = 0, my = 0;   // posisi mouse aktual
+            let rx = 0, ry = 0;   // posisi ring (dianimasi)
+            let rafId = null;
+
+            // ── DOT: snap langsung ke mouse, TANPA delay ──
+            document.addEventListener('mousemove', function (e) {
+                mx = e.clientX;
+                my = e.clientY;
+
+                // Gunakan left/top (tidak pakai transform agar tidak rebut dengan transition)
+                dot.style.left = mx + 'px';
+                dot.style.top = my + 'px';
+
+                // Mulai animasi ring jika belum jalan
+                if (!rafId) rafId = requestAnimationFrame(animRing);
+            }, { passive: true });
+
+            // ── RING: lerp cepat (0.35) — responsif, tetap smooth ──
+            function animRing() {
+                rx += (mx - rx) * 0.35;
+                ry += (my - ry) * 0.35;
+
+                ring.style.left = rx + 'px';
+                ring.style.top = ry + 'px';
+
+                // Stop rAF saat sudah sangat dekat (hemat CPU)
+                if (Math.abs(mx - rx) < 0.3 && Math.abs(my - ry) < 0.3) {
+                    rafId = null;
+                } else {
+                    rafId = requestAnimationFrame(animRing);
+                }
+            }
+
+            // ── Sembunyikan saat mouse keluar window ──
+            document.addEventListener('mouseleave', function () {
+                dot.style.opacity = '0';
+                ring.style.opacity = '0';
+            });
+            document.addEventListener('mouseenter', function () {
+                dot.style.opacity = '1';
+                ring.style.opacity = '1';
+            });
+
+            // ── Hover effect: pakai class di body ──
+            const SEL = 'a, button, .proj-card, .ach-card, .skill-tag, ' +
+                '.skill-tag-wrap, .org-card, .cert-item, .doc-thumb, ' +
+                '.proj-btn, .contact-card, .ach-cert';
+
+            document.addEventListener('mouseover', function (e) {
+                if (e.target.closest(SEL)) document.body.classList.add('cursor-hover');
+            });
+            document.addEventListener('mouseout', function (e) {
+                if (e.target.closest(SEL)) document.body.classList.remove('cursor-hover');
+            });
+        })();
 
         // Navbar scroll
         const navbar = document.getElementById('navbar');
@@ -1738,10 +1848,19 @@
         function closeModalIfBg(e, el) {
             if (e.target === el) { el.classList.remove('open'); document.body.style.overflow = ''; }
         }
-        document.addEventListener('keydown', e => {
+        document.addEventListener('keydown', function (e) {
             if (e.key === 'Escape') {
-                document.querySelectorAll('.modal-overlay.open').forEach(m => m.classList.remove('open'));
+                // Tutup semua modal overlay
+                document.querySelectorAll('.modal-overlay.open').forEach(m => {
+                    m.classList.remove('open');
+                });
+                // Tutup lightbox
                 closeLightbox();
+                // Tutup video modal
+                const vModal = document.getElementById('videoModal');
+                if (vModal && vModal.style.display === 'flex') {
+                    closeVideoModal();
+                }
                 document.body.style.overflow = '';
             }
         });
@@ -1758,7 +1877,55 @@
             document.getElementById('lightbox').classList.remove('open');
             document.body.style.overflow = '';
         }
+        function openVideoModal(src, title) {
+            const modal = document.getElementById('videoModal');
+            const player = document.getElementById('videoModalPlayer');
+            const ttl = document.getElementById('videoModalTitle');
+            player.src = src;
+            ttl.textContent = title || '';
+            modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeVideoModal(e) {
+            // Jika dipanggil dari onclick overlay, tutup hanya jika klik di background
+            if (e && e.currentTarget && e.target !== e.currentTarget) return;
+            const modal = document.getElementById('videoModal');
+            const player = document.getElementById('videoModalPlayer');
+            player.pause();
+            player.src = '';
+            modal.style.display = 'none';
+            document.body.style.overflow = '';
+        }
     </script>
+    <!-- VIDEO MODAL -->
+    <div id="videoModal" style="display:none;position:fixed;inset:0;z-index:9999;
+            background:rgba(0,0,0,.85);backdrop-filter:blur(8px);
+            align-items:center;justify-content:center;" onclick="closeVideoModal(event)">
+
+        <div style="position:relative;width:min(900px,92vw);">
+            <!-- Close button -->
+            <button onclick="closeVideoModal()" style="position:absolute;top:-2.2rem;right:0;
+                       background:none;border:none;color:#fff;
+                       font-size:1.4rem;cursor:pointer;line-height:1;">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <!-- Title -->
+            <div id="videoModalTitle" style="color:#e2e8f0;font-weight:700;font-size:1rem;
+                    margin-bottom:.75rem;font-family:'DM Sans',sans-serif;">
+            </div>
+
+            <!-- Video player -->
+            <video id="videoModalPlayer" controls style="width:100%;border-radius:14px;
+                      box-shadow:0 24px 60px rgba(0,0,0,.7);
+                      background:#000;max-height:75vh;">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+
 </body>
 
 </html>
