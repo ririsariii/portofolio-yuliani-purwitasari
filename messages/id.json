@@ -1,0 +1,516 @@
+{
+    "navigation": {
+        "home": "Beranda",
+        "about": "Tentang",
+        "projects": "Proyek",
+        "experience": "Pengalaman",
+        "skills": "Keahlian",
+        "achievements": "Pencapaian",
+        "blog": "Blog",
+        "gallery": "Galeri",
+        "contact": "Kontak",
+        "resume": "Resume",
+        "tools": "Peralatan",
+        "menu": {
+            "achievements": "Pencapaian",
+            "achievementsDesc": "Sertifikasi, penghargaan, dan pencapaian",
+            "skills": "Keahlian",
+            "skillsDesc": "Teknologi, bahasa, dan tools yang saya gunakan",
+            "experience": "Pengalaman",
+            "experienceDesc": "Perjalanan profesional, akademik & kepanitiaan",
+            "projects": "Proyek",
+            "projectsDesc": "Kumpulan karya Data Science, BI & Web",
+            "blog": "Blog",
+            "blogDesc": "Catatan teknis dan refleksi proyek",
+            "gallery": "Galeri",
+            "galleryDesc": "Arsip visual kegiatan dan dokumentasi"
+        },
+        "shortcuts": {
+            "volume1": "Volume I: Identitas",
+            "volume2": "Volume II: Pengalaman & Karya",
+            "volume3": "Volume III: Matriks Kompetensi",
+            "volume4": "Volume IV: Arsip & Media",
+            "preview": "Mode Pratinjau",
+            "idRef": "ID_REF"
+        }
+    },
+    "hero": {
+        "greeting": "Selamat datang di ruang digital saya",
+        "subtitle": "Data Scientist • Data Analyst • Software Developer",
+        "cta": {
+            "primary": "Jelajahi Proyek",
+            "secondary": "Hubungi Saya",
+            "exploreMore": "Jelajahi Lebih Lanjut"
+        },
+        "badge": "Terbuka untuk peluang",
+        "scroll": "Gulir ke Bawah",
+        "role": "Data Scientist & Software Developer",
+        "description": "Mengubah <span class='text-primary font-semibold'>Data</span> menjadi <span class='text-secondary font-semibold'>Insight</span> dan solusi <span class='text-accent font-semibold'>Digital yang Bermakna</span>."
+    },
+    "about": {
+        "title": "Tentang Saya",
+        "subtitle": "Lulusan Sistem Informasi & Antusias ML",
+        "description": "Fresh graduate Sistem Informasi UPN \"Veteran\" Jawa Timur dengan minat kuat di Data Analytics, Business Intelligence, Data Science, dan Web Development.",
+        "stats": {
+            "experience": "Tahun Studi",
+            "projects": "Proyek Selesai",
+            "certifications": "Sertifikasi",
+            "competitions": "Penghargaan"
+        },
+        "identity": "Tautan Identitas Dibuat",
+        "architecting": "Mengubah Data Menjadi",
+        "digitalReality": "Dampak Nyata",
+        "leadIn": {
+            "label": "APA YANG SAYA LAKUKAN",
+            "tagline": "FOKUS INTI",
+            "headlineAI": "ML Terapan.",
+            "headlineData": "Business Intelligence.",
+            "headlineSoftware": "Solusi Perangkat Lunak Bermakna",
+            "thesis": "Saya mengubah data mentah menjadi <span class='text-primary italic font-serif-elegant font-normal'>insight yang actionable</span> dan membangun aplikasi web & ML yang handal.",
+            "scope": "Berfokus pada Aspect-Based Sentiment Analysis, pemodelan prediktif, dashboard Looker Studio & OLAP, serta sistem web PHP/Flask/Laravel.",
+            "bridging": "Menghubungkan analitik dan aplikasi produksi.",
+            "integration": "Selain model dan dashboard, saya merancang alur web menyeluruh: skema SQL bersih, antarmuka interaktif, serta sistem ERP/penagihan.",
+            "signature": "Sari",
+            "role": "Data Scientist • Data Analyst • Software Developer",
+            "aboutMe": "Tentang Saya",
+            "scroll": "Scroll untuk Jelajah",
+            "shortStory": "Cerita Singkat Saya"
+        },
+        "coreEngineering": {
+            "label": "Kapabilitas Inti",
+            "title": "<span class='text-primary italic font-serif font-light lowercase'>analitik</span> Terbukti. <br /> <span class='italic font-serif font-light text-foreground'>dampak</span> Terukur.",
+            "p1": "Saya mengembangkan solusi ML dan NLP terapan dengan Python, TensorFlow, Keras, dan IndoBERT yang disajikan melalui API Flask dan dashboard web.",
+            "p2": "Berpengalaman di Business Intelligence dengan Looker Studio, Power BI, SQL, Pentaho ETL, dan Mondrian OLAP serta pengembangan web PHP dan Laravel.",
+            "p3": "Meraih Lulusan Terbaik ke-3 UPN \"Veteran\" Jawa Timur (IPK 3.87) serta Distinction Graduate & Best Graduate ML Path Bangkit Academy 2024.",
+            "gpa": "IPK Akademik",
+            "projects": "Proyek Dibangun",
+            "years": "Tahun Studi"
+        },
+        "emergingResearch": {
+            "label": "Fase Eksplorasi",
+            "title": "RISET <span class='italic font-serif font-light text-primary lowercase'>&</span> PENGEMBANGAN BERKELANJUTAN",
+            "agentic": {
+                "title": "NLP BAHASA INDONESIA",
+                "desc": "Mengembangkan Aspect-Based Sentiment Analysis berbasis IndoBERT dan topic modeling untuk menggali insight pelanggan dari ulasan berskala besar."
+            },
+            "web3": {
+                "title": "BUSINESS INTELLIGENCE & ERP",
+                "desc": "Merancang Data Warehouse multidimensional, OLAP cubes, dan integrasi Odoo ERP untuk mendukung pengambilan keputusan operasional."
+            }
+        },
+        "profile": {
+            "title": "Mengubah <br class='hidden lg:block' /> Data Kompleks <br /> Menjadi <span class='text-primary italic font-serif font-light lowercase'>Insight</span> <br /> & Solusi Nyata.",
+            "narrativeLabel": "Narasi Inti",
+            "narrative": "Sebagai lulusan Sistem Informasi UPN \"Veteran\" Jawa Timur serta Distinction Graduate & Best Graduate ML Path Bangkit Academy 2024, saya memadukan ketajaman analitik dengan rekayasa perangkat lunak.",
+            "narrative2": "Karya saya mencakup Aspect-Based Sentiment Analysis, computer vision pertanian, dashboard BI real-time, hingga aplikasi web full-stack.",
+            "pillars": {
+                "reliable": {
+                    "title": "Ketelitian Berbasis Data",
+                    "desc": "Keputusan didukung pipeline data bersih, metrik tervalidasi, dan kejelasan statistik."
+                },
+                "optimized": {
+                    "title": "Pengiriman End-to-End",
+                    "desc": "Dari prapemprosesan data dan pemodelan hingga dashboard dan aplikasi siap pakai."
+                },
+                "maintainable": {
+                    "title": "Kepemimpinan Kolaboratif",
+                    "desc": "Terbukti melalui peran Project Leader Top 50 Capstone Bangkit & Kepala Departemen Advokasi HIMASIFO."
+                },
+                "evolvable": {
+                    "title": "Adaptasi Cepat",
+                    "desc": "Terus menguasai ekosistem ML, BI, dan pengembangan perangkat lunak modern."
+                }
+            }
+        },
+        "closing": {
+            "experience": {
+                "label": "LATAR BELAKANG",
+                "title1": "PENGALAMAN",
+                "title2": "UTAMA",
+                "viewMore": "Semua Pengalaman"
+            },
+            "projects": {
+                "label": "PORTOFOLIO",
+                "title1": "PROYEK",
+                "title2": "UNGGULAN",
+                "viewMore": "Semua Proyek"
+            },
+            "experiencesList": [
+                {
+                    "company": "PT PLN (Persero) UP3 Gresik",
+                    "role": "DATA ANALYST & FULLSTACK DEVELOPER",
+                    "desc": "Membangun dashboard monitoring performa real-time di Looker Studio serta sistem pengiriman tagihan bulanan berbasis PHP, HTML, CSS, dan MySQL."
+                },
+                {
+                    "company": "Bangkit Academy 2024 Batch 2",
+                    "role": "MACHINE LEARNING COHORT",
+                    "desc": "Distinction Graduate & Best Graduate ML Path (Skor 96.8, Top 10%). Memimpin proyek Capstone Top 50 \"Tanamore\" dari 644 tim."
+                },
+                {
+                    "company": "UPN \"Veteran\" Jawa Timur",
+                    "role": "ASISTEN DOSEN – BAHASA PEMROGRAMAN 2",
+                    "desc": "Mengevaluasi tugas, kuis, dan proyek akhir mahasiswa S1 Sistem Informasi."
+                },
+                {
+                    "company": "HIMASIFO UPNVJT",
+                    "role": "KEPALA & STAF DEPT. ADVOKASI",
+                    "desc": "Memimpin program advokasi mahasiswa, mengelola platform Advormate, serta menjembatani komunikasi dengan birokrasi kampus."
+                },
+                {
+                    "company": "Sinergy International Conference",
+                    "role": "PRESENTER KONFERENSI (2026)",
+                    "desc": "Mempresentasikan riset ilmiah di Scholars International Conference on Research and Global Youth."
+                }
+            ],
+            "projectsList": [
+                {
+                    "title": "ABSA – Ulasan Aplikasi PLN Mobile",
+                    "desc": "Penelitian skripsi Aspect-Based Sentiment Analysis menggunakan Machine Learning dan topic modeling pada ulasan PLN Mobile, dideploy dengan Flask & Vercel."
+                },
+                {
+                    "title": "East Java Tourism ABSA Dashboard",
+                    "desc": "Sistem ABSA multi-task IndoBERT pada ±35.000 ulasan wisata 17 destinasi Jawa Timur (akurasi aspek 89.41%, macro F1 81.25%) dengan dashboard Flask."
+                },
+                {
+                    "title": "Dashboard Performa PLN UP3 Gresik",
+                    "desc": "Dashboard Looker Studio interaktif untuk memantau kinerja operasional dan pemasaran PLN UP3 Gresik secara real-time."
+                },
+                {
+                    "title": "AdventureWorks DWO & OLAP",
+                    "desc": "Data Warehouse multidimensional dan dashboard OLAP menggunakan Pentaho, Mondrian OLAP, MySQL, PHP, dan Chart.js."
+                },
+                {
+                    "title": "Tanamore – Deteksi Penyakit Tanaman",
+                    "desc": "Proyek Capstone Top 50 Bangkit 2024 dengan model TensorFlow akurasi 97%, API Flask di Google Cloud, dan aplikasi Android Kotlin."
+                }
+            ],
+            "discoverMore": "Temukan Lebih Lanjut"
+        }
+    },
+    "projects": {
+        "title": "Proyek",
+        "subtitle": "Kumpulan karya Data Science, Business Intelligence, dan pengembangan perangkat lunak",
+        "search": "Cari proyek...",
+        "viewAll": "Lihat Semua Proyek",
+        "viewProject": "Lihat Proyek",
+        "liveDemo": "Demo Langsung",
+        "sourceCode": "Kode Sumber",
+        "techStack": "Tech Stack",
+        "tools": "Tools yang Digunakan",
+        "highlights": "Highlights",
+        "challenges": "Tantangan",
+        "filters": {
+            "all": "Semua",
+            "ongoing": "Sedang Berjalan",
+            "completed": "Selesai"
+        },
+        "sections": {
+            "missionBrief": "Ringkasan Proyek",
+            "keyFeatures": "Fitur Utama",
+            "engineeringChronicles": "Tantangan & Solusi",
+            "visualGallery": "Galeri & Demo",
+            "installation": "Instruksi Instalasi",
+            "projectAccess": "Akses Proyek",
+            "technologies": "Teknologi",
+            "contents": "Daftar Isi",
+            "moreProjects": "Proyek Lainnya",
+            "backToProjects": "Kembali ke Proyek",
+            "viewMore": "Lihat Lebih Banyak",
+            "viewLess": "Tampilkan Lebih Sedikit",
+            "solution": "Solusi",
+            "liveDemo": "Demo Langsung",
+            "sourceCode": "Kode Sumber"
+        },
+        "status": {
+            "ongoing": "Pengembangan Aktif",
+            "completed": "Proyek Selesai"
+        },
+        "metadata": {
+            "role": "Peran",
+            "timeline": "Waktu",
+            "team": "Tim",
+            "techStack": "Teknologi",
+            "roleValue": "Data & Software Dev",
+            "teamValue": "Individu",
+            "techStackValue": "{count} Teknologi"
+        }
+    },
+    "experience": {
+        "title": "Pengalaman",
+        "subtitle": "Perjalanan akademik, profesional, organisasi, dan kepanitiaan saya",
+        "showDetail": "Tampilkan Detail",
+        "hideDetail": "Sembunyikan Detail",
+        "tasks": "TUGAS",
+        "learned": "APA YANG SAYA PELAJARI",
+        "impact": "DAMPAK",
+        "present": "Sekarang",
+        "responsibilities": "Tanggung Jawab",
+        "skills": "Keahlian yang Digunakan",
+        "month": "bulan",
+        "months": "bulan",
+        "year": "tahun",
+        "years": "tahun",
+        "type": {
+            "full-time": "Penuh Waktu",
+            "part-time": "Paruh Waktu",
+            "internship": "Magang",
+            "freelance": "Freelance",
+            "contract": "Organisasi / Konferensi",
+            "apprenticeship": "Bootcamp",
+            "volunteer": "Kepanitiaan"
+        },
+        "filters": {
+            "all": "Semua",
+            "latest": "Terbaru",
+            "oldest": "Terlama",
+            "ongoing": "Sedang Berjalan"
+        },
+        "education": {
+            "title": "Pendidikan"
+        }
+    },
+    "expertise": {
+        "title": "Kapabilitas Inti",
+        "subtitle": "Mengubah data menjadi insight dan membangun aplikasi web & ML yang handal",
+        "dragHint": "Geser atau gulir untuk menjelajah"
+    },
+    "skills": {
+        "title": "Keahlian & Tools",
+        "subtitle": "Bahasa pemrograman, framework, platform BI, dan tools yang saya kuasai",
+        "hard": "Keahlian Teknis",
+        "soft": "Soft Skills",
+        "technical": "Kemahiran Teknis",
+        "tools": "Tools & Platform",
+        "pillars": "Pilar Inti",
+        "achievements": "Pencapaian Terverifikasi",
+        "level": {
+            "beginner": "Pemula",
+            "intermediate": "Menengah",
+            "advanced": "Mahir",
+            "expert": "Ahli"
+        }
+    },
+    "achievements": {
+        "title": "Pencapaian",
+        "subtitle": "Penghargaan akademik, prestasi Bangkit, dan 32+ sertifikasi terverifikasi",
+        "search": "Cari pencapaian...",
+        "viewCredential": "Lihat Kredensial",
+        "category": {
+            "all": "Semua",
+            "certification": "Sertifikasi",
+            "award": "Penghargaan",
+            "publication": "Publikasi",
+            "competition": "Kompetisi"
+        },
+        "sort": {
+            "newest": "Terbaru",
+            "oldest": "Terlama"
+        },
+        "stats": {
+            "total": "Total Pencapaian",
+            "awards": "Penghargaan",
+            "certifications": "Sertifikasi"
+        }
+    },
+    "contact": {
+        "title": "Hubungi Saya",
+        "subtitle": "Mari berkolaborasi mengubah data dan ide menjadi solusi bermakna",
+        "form": {
+            "name": "Nama Anda",
+            "email": "Email Anda",
+            "subject": "Subjek",
+            "message": "Pesan Anda",
+            "messagePlaceholder": "Ceritakan proyek atau peluang kerja sama...",
+            "send": "Kirim Pesan",
+            "submit": "KIRIM PESAN",
+            "sending": "MENGIRIM...",
+            "sent": "TERKIRIM!",
+            "success": "Pesan berhasil dikirim!",
+            "error": "Terjadi kesalahan. Silakan coba lagi."
+        },
+        "social": {
+            "title": "Terhubung di Media Sosial"
+        },
+        "faq": {
+            "title": "Pertanyaan yang Sering Diajukan"
+        },
+        "info": {
+            "email": "Email",
+            "phone": "Lokasi",
+            "location": "Lokasi",
+            "availability": "Terbuka untuk kesempatan"
+        },
+        "hero": {
+            "title": "MARI TERHUBUNG",
+            "subtitle": "Terbuka untuk peluang kerja, proyek data, atau kolaborasi — inbox saya selalu terbuka!",
+            "ticker": {
+                "build": "Data Science • Data Analytics • Web Dev · ",
+                "freelance": "Terbuka untuk Peluang · "
+            }
+        },
+        "faqData": [
+            {
+                "q": "Apa bidang keahlian utama Anda?",
+                "a": "Saya adalah lulusan Sistem Informasi UPN \"Veteran\" Jawa Timur yang berfokus pada Data Science, Data Analytics, Business Intelligence (Looker Studio, Power BI, OLAP), dan Full-Stack Web Development (Python, Flask, PHP, Laravel, SQL)."
+            },
+            {
+                "q": "Apa prestasi akademik dan bootcamp yang pernah diraih?",
+                "a": "Saya meraih Lulusan Terbaik ke-3 UPN \"Veteran\" Jawa Timur (Wisuda 98, 2026) dengan IPK 3.87, serta Distinction Graduate & Best Graduate ML Path di Bangkit Academy 2024 Batch 2 (Skor 96.8) dan memimpin proyek Capstone Top 50 \"Tanamore\"."
+            },
+            {
+                "q": "Teknologi apa yang sering digunakan dalam proyek Anda?",
+                "a": "Untuk proyek ML dan NLP saya menggunakan Python, TensorFlow, Keras, IndoBERT, dan Flask. Untuk proyek BI dan web/mobile saya menggunakan Looker Studio, Power BI, Pentaho/Mondrian OLAP, MySQL, PHP, Laravel, Kotlin, dan Odoo ERP."
+            },
+            {
+                "q": "Apakah Anda memiliki pengalaman industri dan organisasi?",
+                "a": "Ya! Saya magang di PT PLN (Persero) UP3 Gresik sebagai Data Analyst & Fullstack Developer, menjadi Asisten Dosen Bahasa Pemrograman 2, menjabat Kepala Departemen Advokasi HIMASIFO UPNVJT, serta menjadi presenter di Sinergy International Conference 2026."
+            },
+            {
+                "q": "Bagaimana cara menghubungi untuk tawaran kerja atau kolaborasi?",
+                "a": "Anda dapat menggunakan formulir kontak di atas, mengirim email ke yulianipurwitasari19@gmail.com, atau terhubung melalui LinkedIn (yuliani-purwitasari) dan GitHub (ririsariii)."
+            }
+        ]
+    },
+    "stats": {
+        "systemStatus": "Status Sistem: Portofolio Aktif",
+        "portfolio": "Sorotan Profil",
+        "totalPulse": "Total Denyut",
+        "peakActivity": "Aktivitas Puncak",
+        "dailyAverage": "Rata-rata Harian",
+        "currentSprint": "Sprint Saat Ini",
+        "engageFlow": "Alur Keterlibatan",
+        "weeklyEffort": "Upaya Mingguan",
+        "processSpeed": "Kecepatan Proses",
+        "avgPerf": "Performa Rata-rata",
+        "latency": "IPK: 3.87 / 4.0",
+        "system": "SKOR BANGKIT: 96.8",
+        "scanning": "TERBUKA_UNTUK_PELUANG",
+        "engineering": "METRIK",
+        "metrics": "PORTOFOLIO",
+        "analyticsSub": "DATA SCIENCE / ANALITIK / PENGEMBANGAN PERANGKAT LUNAK",
+        "statusOnline": "STATUS: TERSEDIA",
+        "loadStable": "LULUSAN_PREDIKAT_TERBAIK"
+    },
+    "projectHeader": {
+        "title": "Mengubah Data Menjadi Solusi",
+        "subtitle": "Pameran kurasi proyek <span class='font-bold text-foreground'>Data Science</span>, Machine Learning, dashboard Business Intelligence, serta aplikasi web & mobile."
+    },
+    "footer": {
+        "copyright": "Hak cipta dilindungi.",
+        "madeWith": "Dirancang & Dibangun oleh",
+        "more": "Lainnya",
+        "marquee": [
+            "Terbuka untuk Peluang",
+            "Data Science & NLP",
+            "Data Analytics & BI",
+            "Full-Stack Web Dev",
+            "Machine Learning",
+            "Pengembangan Dashboard"
+        ],
+        "cta": {
+            "title": "Mari Bekerja",
+            "titleHighlight": "Bersama",
+            "subtitle": "Mencari Data Scientist, Data Analyst, atau Software Developer? Mari bangun solusi yang berdampak bersama."
+        },
+        "links": "TAUTAN",
+        "socials": "SOSIAL",
+        "localTime": "WAKTU LOKAL",
+        "version": "VERSI",
+        "versionEdition": "2026 © Edition"
+    },
+    "ctaSection": {
+        "title": "Mari Membangun Sesuatu yang",
+        "together": "Bersama",
+        "subtitle": "Bersemangat mengubah data menjadi insight dan membangun solusi digital yang bermakna. Terbuka untuk peluang di bidang Data Science, Analitik, dan Software Development.",
+        "start": "Hubungi Saya",
+        "work": "Lihat Resume Saya",
+        "words": {
+            "amazing": "Tajam",
+            "innovative": "Berbasis Data",
+            "intelligent": "Berdampak",
+            "creative": "Bermakna"
+        },
+        "ribbon1": "Python • SQL • TensorFlow • Keras • IndoBERT • Flask • PHP • Laravel • Looker Studio • Power BI • MySQL • Odoo",
+        "ribbon2": "Data Scientist • Data Analyst • Business Intelligence • Machine Learning Engineer • Software Developer • Fullstack Web Developer • NLP & ABSA"
+    },
+    "common": {
+        "loading": "Memuat...",
+        "error": "Terjadi kesalahan",
+        "notFound": "Halaman tidak ditemukan",
+        "backHome": "Kembali ke Beranda",
+        "viewMore": "Lihat Selengkapnya",
+        "readMore": "Baca Selengkapnya",
+        "close": "Tutup",
+        "download": "Unduh",
+        "share": "Bagikan",
+        "scrollAudit": "Gulir untuk Menjelajah"
+    },
+    "technical": {
+        "github": {
+            "title": "Kontribusi GitHub",
+            "description": "Aktivitas GitHub saya selama setahun terakhir.",
+            "total": "Total",
+            "thisWeek": "Minggu Ini",
+            "best": "Terbaik",
+            "average": "Rata-rata",
+            "less": "Sedikit",
+            "more": "Banyak"
+        },
+        "wakatime": {
+            "title": "Statistik WakaTime",
+            "description": "Aktivitas coding selama 7 hari terakhir.",
+            "lastUpdate": "Pembaruan Terakhir",
+            "startDate": "Tanggal Mulai",
+            "endDate": "Tanggal Selesai",
+            "dailyAverage": "Rata-rata Harian",
+            "totalWeek": "Total Minggu Ini",
+            "bestDay": "Hari Terbaik",
+            "totalSince": "Total Sejak Bergabung",
+            "topLanguages": "Bahasa Teratas"
+        }
+    },
+    "blog": {
+        "title": "Catatan & Refleksi",
+        "subtitle": "Dokumentasi pembelajaran dari proyek Aspect-Based Sentiment Analysis, dashboard BI Looker Studio, dan Machine Learning.",
+        "sectionBadge": "Jurnal Proyek",
+        "search": "Cari artikel...",
+        "readTime": "menit baca",
+        "readMore": "Baca Artikel",
+        "back": "Kembali ke Blog",
+        "noResults": "Tidak ada artikel ditemukan",
+        "categories": {
+            "applied-ai": "ML & NLP Terapan",
+            "software-development": "BI & Web Dev",
+            "about-me": "Perjalanan",
+            "more": "Lainnya"
+        }
+    },
+    "gallery": {
+        "title": "Arsip Visual",
+        "subtitle": "Koleksi dokumentasi magang, Bangkit Academy, konferensi, dan kepanitiaan.",
+        "filter": {
+            "all": "Semua Media",
+            "image": "Foto",
+            "video": "Video"
+        },
+        "viewMedia": "Lihat Media"
+    },
+    "chatbot": {
+        "title": "Asisten AI",
+        "subtitle": "Tanya saya tentang Sari",
+        "placeholder": "Ketik pesan...",
+        "greeting": "Halo! Saya asisten AI untuk **{name}** (Sari). 👋\n\nSaya bisa menjawab pertanyaan seputar:\n- Keahlian teknis (Data Science, BI, Web Dev)\n- Proyek dan penelitian skripsi\n- Pengalaman magang, Bangkit Academy & organisasi\n- Pendidikan dan 32+ sertifikasi\n\nAda yang ingin kamu tanyakan?",
+        "suggestions": [
+            "Apa keahlian utama Sari?",
+            "Ceritakan proyek ABSA & Tanamore",
+            "Apa pengalaman magang & Bangkit Sari?",
+            "Penghargaan dan sertifikasi apa yang diraih?"
+        ],
+        "error": "Terjadi kesalahan. Silakan coba lagi.",
+        "invalidResponse": "Respons tidak valid dari server.",
+        "unknownError": "Terjadi kesalahan yang tidak diketahui.",
+        "retry": "Coba lagi",
+        "inputHint": "Enter untuk kirim, Shift+Enter untuk baris baru",
+        "close": "Tutup chat"
+    }
+}

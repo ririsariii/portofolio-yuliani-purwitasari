@@ -1,0 +1,516 @@
+{
+    "navigation": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "experience": "Experience",
+        "skills": "Skills",
+        "achievements": "Achievements",
+        "blog": "Blog",
+        "gallery": "Gallery",
+        "contact": "Contact",
+        "resume": "Resume",
+        "tools": "Tools",
+        "menu": {
+            "achievements": "Achievements",
+            "achievementsDesc": "Certifications, awards, and milestones",
+            "skills": "Skills",
+            "skillsDesc": "Technologies and tools I work with",
+            "experience": "Experience",
+            "experienceDesc": "My professional, academic & committee journey",
+            "projects": "Projects",
+            "projectsDesc": "A showcase of my data, ML & web work",
+            "blog": "Blog",
+            "blogDesc": "Technical notes and project reflections",
+            "gallery": "Gallery",
+            "galleryDesc": "Visual archive of activities and milestones"
+        },
+        "shortcuts": {
+            "volume1": "Volume I: Identity",
+            "volume2": "Volume II: Experience & Output",
+            "volume3": "Volume III: Competency Matrix",
+            "volume4": "Volume IV: Archive & Media",
+            "preview": "Preview Mode",
+            "idRef": "ID_REF"
+        }
+    },
+    "hero": {
+        "greeting": "Welcome to my digital space",
+        "subtitle": "Data Scientist • Data Analyst • Software Developer",
+        "cta": {
+            "primary": "Explore Projects",
+            "secondary": "Get in Touch",
+            "exploreMore": "Explore More"
+        },
+        "badge": "Available for opportunities",
+        "scroll": "Scroll Down",
+        "role": "Data Scientist & Software Developer",
+        "description": "Turning complex <span class='text-primary font-semibold'>Data</span> into actionable <span class='text-secondary font-semibold'>Insights</span> and meaningful <span class='text-accent font-semibold'>Digital Solutions</span>."
+    },
+    "about": {
+        "title": "About Me",
+        "subtitle": "Information Systems Graduate & ML Enthusiast",
+        "description": "Fresh graduate in Information Systems from UPN \"Veteran\" Jawa Timur with strong interests in Data Analytics, Business Intelligence, Data Science, and Web Development.",
+        "stats": {
+            "experience": "Years Study",
+            "projects": "Projects Done",
+            "certifications": "Certifications",
+            "competitions": "Awards Won"
+        },
+        "identity": "Identity Link Established",
+        "architecting": "Turning Data Into",
+        "digitalReality": "Meaningful Impact",
+        "leadIn": {
+            "label": "WHAT I DO",
+            "tagline": "CORE FOCUS",
+            "headlineAI": "Applied ML.",
+            "headlineData": "Business Intelligence.",
+            "headlineSoftware": "Meaningful software solutions",
+            "thesis": "I turn raw data into <span class='text-primary italic font-serif-elegant font-normal'>actionable insights</span> and build dependable web & ML applications.",
+            "scope": "Focusing on Aspect-Based Sentiment Analysis, predictive modeling, Looker Studio & OLAP dashboards, and full-stack PHP/Flask/Laravel systems.",
+            "bridging": "Bridging analytics and production apps.",
+            "integration": "Beyond models and dashboards, I engineer complete web workflows: clean SQL schemas, interactive frontends, and reliable ERP/billing systems.",
+            "signature": "Sari",
+            "role": "Data Scientist • Data Analyst • Software Developer",
+            "aboutMe": "About Me",
+            "scroll": "Scroll to Explore",
+            "shortStory": "My Short Story"
+        },
+        "coreEngineering": {
+            "label": "Core Capabilities",
+            "title": "Proven <span class='text-primary italic font-serif font-light lowercase'>analytics.</span> <br /> Measurable <span class='italic font-serif font-light text-foreground'>impact.</span>",
+            "p1": "I build applied ML and NLP solutions using Python, TensorFlow, Keras, and IndoBERT, deploying models via Flask APIs and web dashboards.",
+            "p2": "Experienced in Business Intelligence with Looker Studio, Power BI, SQL, Pentaho ETL, and Mondrian OLAP, plus full-stack PHP and Laravel web development.",
+            "p3": "Recognized as 3rd Best Graduate at UPN \"Veteran\" Jawa Timur (GPA 3.87) and Distinction & Best Graduate of the ML Path at Bangkit Academy 2024.",
+            "gpa": "Academic GPA",
+            "projects": "Projects Built",
+            "years": "Years Study"
+        },
+        "emergingResearch": {
+            "label": "Exploration Phase",
+            "title": "RESEARCH <span class='italic font-serif font-light text-primary lowercase'>&</span> CONTINUOUS GROWTH",
+            "agentic": {
+                "title": "MULTILINGUAL & INDONESIAN NLP",
+                "desc": "Advancing Aspect-Based Sentiment Analysis with IndoBERT and topic modeling to extract structured customer insights from large-scale Indonesian reviews."
+            },
+            "web3": {
+                "title": "BUSINESS INTELLIGENCE & ERP",
+                "desc": "Designing multidimensional Data Warehouses, OLAP cubes, and integrated Odoo ERP workflows that empower operational decision-making."
+            }
+        },
+        "profile": {
+            "title": "Turning Complex Data <br /> Into Clear Insights & Real-World Solutions.",
+            "narrativeLabel": "Core Narrative",
+            "narrative": "As an Information Systems fresh graduate from UPN \"Veteran\" Jawa Timur and Bangkit Academy 2024 Distinction & Best Graduate in Machine Learning, I bridge analytical rigor with practical software development.",
+            "narrative2": "My work spans Aspect-Based Sentiment Analysis, computer vision for agriculture, real-time BI dashboards, and full-stack web systems built for measurable impact.",
+            "pillars": {
+                "reliable": {
+                    "title": "Data-Driven Rigor",
+                    "desc": "Decisions backed by clean pipelines, validated metrics, and statistical clarity."
+                },
+                "optimized": {
+                    "title": "End-to-End Delivery",
+                    "desc": "From data preprocessing and modeling to deployed dashboards and web apps."
+                },
+                "maintainable": {
+                    "title": "Collaborative Leadership",
+                    "desc": "Proven through leading Bangkit Top 50 Capstone and HIMASIFO Advocacy Dept."
+                },
+                "evolvable": {
+                    "title": "Fast Adaptability",
+                    "desc": "Continuously mastering modern ML, BI, and software engineering stacks."
+                }
+            }
+        },
+        "closing": {
+            "experience": {
+                "label": "BACKGROUND",
+                "title1": "KEY",
+                "title2": "EXPERIENCE",
+                "viewMore": "Full Experience"
+            },
+            "projects": {
+                "label": "PORTFOLIO",
+                "title1": "FLAGSHIP",
+                "title2": "PROJECTS",
+                "viewMore": "All Projects"
+            },
+            "experiencesList": [
+                {
+                    "company": "PT PLN (Persero) UP3 Gresik",
+                    "role": "DATA ANALYST & FULLSTACK DEVELOPER",
+                    "desc": "Developed real-time Looker Studio performance monitoring dashboards and built a web-based monthly invoice delivery system using PHP, HTML, CSS, and MySQL."
+                },
+                {
+                    "company": "Bangkit Academy 2024 Batch 2",
+                    "role": "MACHINE LEARNING COHORT",
+                    "desc": "Distinction Graduate & Best Graduate of ML Path (Score 96.8, Top 10%). Led the Top 50 Capstone Project \"Tanamore\" out of 644 submissions."
+                },
+                {
+                    "company": "UPN \"Veteran\" Jawa Timur",
+                    "role": "ASSISTANT LECTURER – PROGRAMMING 2",
+                    "desc": "Evaluated assignments, quizzes, and final projects for undergraduate Information Systems students."
+                },
+                {
+                    "company": "HIMASIFO UPNVJT",
+                    "role": "HEAD & STAFF OF ADVOCACY DEPT.",
+                    "desc": "Led student advocacy initiatives, managed the Advormate complaint platform, and bridged communication with university bureaucracy."
+                },
+                {
+                    "company": "Sinergy International Conference",
+                    "role": "CONFERENCE PRESENTER (2026)",
+                    "desc": "Presented academic research at the Scholars International Conference on Research and Global Youth."
+                }
+            ],
+            "projectsList": [
+                {
+                    "title": "ABSA – PLN Mobile App Reviews",
+                    "desc": "Thesis project implementing Aspect-Based Sentiment Analysis with Machine Learning and topic modeling on PLN Mobile reviews, deployed on Flask & Vercel."
+                },
+                {
+                    "title": "East Java Tourism ABSA Dashboard",
+                    "desc": "Multi-task IndoBERT ABSA trained on ±35,000 tourism reviews across 17 East Java destinations (89.41% accuracy, 81.25% macro F1) with Flask dashboard."
+                },
+                {
+                    "title": "PLN UP3 Gresik BI Dashboard",
+                    "desc": "Real-time operational and marketing performance monitoring dashboard built in Looker Studio for PLN UP3 Gresik management."
+                },
+                {
+                    "title": "AdventureWorks DWO & OLAP",
+                    "desc": "Multidimensional Data Warehouse and OLAP reporting dashboard built with Pentaho, Mondrian OLAP, MySQL, PHP, and Chart.js."
+                },
+                {
+                    "title": "Tanamore – Plant Disease Detection",
+                    "desc": "Top 50 Bangkit 2024 Capstone Project featuring 97% accuracy TensorFlow models deployed on Google Cloud with a Kotlin Android app."
+                }
+            ],
+            "discoverMore": "Discover More"
+        }
+    },
+    "projects": {
+        "title": "Projects",
+        "subtitle": "A showcase of my data science, BI, and software development work",
+        "search": "Search projects...",
+        "viewAll": "View All Projects",
+        "viewProject": "View Project",
+        "liveDemo": "Live Demo",
+        "sourceCode": "Source Code",
+        "techStack": "Tech Stack",
+        "tools": "Tools Used",
+        "highlights": "Highlights",
+        "challenges": "Challenges",
+        "filters": {
+            "all": "All",
+            "ongoing": "Ongoing",
+            "completed": "Completed"
+        },
+        "sections": {
+            "missionBrief": "Mission Brief",
+            "keyFeatures": "Key Features",
+            "engineeringChronicles": "Engineering Chronicles",
+            "visualGallery": "Visual Gallery",
+            "installation": "Installation Instructions",
+            "projectAccess": "Project Access",
+            "technologies": "Technologies",
+            "contents": "Table of Contents",
+            "moreProjects": "More Projects",
+            "backToProjects": "Back to Projects",
+            "viewMore": "View More",
+            "viewLess": "Show Less",
+            "solution": "Solution",
+            "liveDemo": "Live Demo",
+            "sourceCode": "Source Code"
+        },
+        "status": {
+            "ongoing": "Active Development",
+            "completed": "Completed Project"
+        },
+        "metadata": {
+            "role": "Role",
+            "timeline": "Timeline",
+            "team": "Team",
+            "techStack": "Tech Stack",
+            "roleValue": "Data & Software Dev",
+            "teamValue": "Individual",
+            "techStackValue": "{count} Technologies"
+        }
+    },
+    "experience": {
+        "title": "Experience",
+        "subtitle": "My academic, professional, and organizational journey",
+        "showDetail": "Show Detail",
+        "hideDetail": "Hide Detail",
+        "tasks": "TASKS",
+        "learned": "WHAT I LEARNED",
+        "impact": "IMPACT",
+        "present": "Present",
+        "responsibilities": "Responsibilities",
+        "skills": "Skills Used",
+        "month": "month",
+        "months": "months",
+        "year": "year",
+        "years": "years",
+        "type": {
+            "full-time": "Full-time",
+            "part-time": "Part-time",
+            "internship": "Internship",
+            "freelance": "Freelance",
+            "contract": "Organization / Conference",
+            "apprenticeship": "Bootcamp",
+            "volunteer": "Committee"
+        },
+        "filters": {
+            "all": "All",
+            "latest": "Latest",
+            "oldest": "Oldest",
+            "ongoing": "Ongoing"
+        },
+        "education": {
+            "title": "Education"
+        }
+    },
+    "expertise": {
+        "title": "Core Capabilities",
+        "subtitle": "Turning data into insights and building reliable web & ML applications",
+        "dragHint": "Drag or scroll to explore"
+    },
+    "skills": {
+        "title": "Skills & Tools",
+        "subtitle": "Languages, frameworks, BI platforms, and tools I work with",
+        "hard": "Hard Skills",
+        "soft": "Soft Skills",
+        "technical": "Technical Proficiency",
+        "tools": "Tools & Platforms",
+        "pillars": "Core Pillars",
+        "achievements": "Verified Achievements",
+        "level": {
+            "beginner": "Beginner",
+            "intermediate": "Intermediate",
+            "advanced": "Advanced",
+            "expert": "Expert"
+        }
+    },
+    "achievements": {
+        "title": "Achievements",
+        "subtitle": "Awards, honors, and 32+ verified certifications",
+        "search": "Search achievements...",
+        "viewCredential": "View Credential",
+        "category": {
+            "all": "All",
+            "certification": "Certification",
+            "award": "Award",
+            "publication": "Publication",
+            "competition": "Competition"
+        },
+        "sort": {
+            "newest": "Newest",
+            "oldest": "Oldest"
+        },
+        "stats": {
+            "total": "Total Achievements",
+            "awards": "Awards Won",
+            "certifications": "Certifications"
+        }
+    },
+    "contact": {
+        "title": "Get in Touch",
+        "subtitle": "Let's turn data and ideas into meaningful solutions together",
+        "form": {
+            "name": "Your Name",
+            "email": "Your Email",
+            "subject": "Subject",
+            "message": "Your Message",
+            "messagePlaceholder": "Tell me about your project or opportunity...",
+            "send": "Send Message",
+            "submit": "SEND MESSAGE",
+            "sending": "SENDING...",
+            "sent": "SENT!",
+            "success": "Message sent successfully!",
+            "error": "Something went wrong. Please try again."
+        },
+        "social": {
+            "title": "Connect on Social Media"
+        },
+        "faq": {
+            "title": "Frequently Asked Questions"
+        },
+        "info": {
+            "email": "Email",
+            "phone": "Location",
+            "location": "Location",
+            "availability": "Open for opportunities"
+        },
+        "hero": {
+            "title": "LET'S CONNECT",
+            "subtitle": "Open to job opportunities, data projects, or collaborations — my inbox is always open!",
+            "ticker": {
+                "build": "Data Science • Data Analytics • Web Dev · ",
+                "freelance": "Available for Opportunities · "
+            }
+        },
+        "faqData": [
+            {
+                "q": "What is your main area of expertise?",
+                "a": "I am an Information Systems fresh graduate from UPN \"Veteran\" Jawa Timur specializing in Data Science, Data Analytics, Business Intelligence (Looker Studio, Power BI, OLAP), and Full-Stack Web Development (Python, Flask, PHP, Laravel, SQL)."
+            },
+            {
+                "q": "What are your notable academic and bootcamp achievements?",
+                "a": "I graduated as 3rd Best Graduate of UPN \"Veteran\" Jawa Timur (Wisuda 98, 2026) with a 3.87 GPA, and as Distinction Graduate & Best Graduate of the Machine Learning Path at Bangkit Academy 2024 Batch 2 (Score 96.8), leading the Top 50 Capstone Project \"Tanamore\"."
+            },
+            {
+                "q": "What technologies do you use in your projects?",
+                "a": "For ML and NLP projects, I use Python, TensorFlow, Keras, IndoBERT, and Flask. For BI and software projects, I work with Looker Studio, Power BI, Pentaho/Mondrian OLAP, MySQL, PHP, Laravel, Kotlin, and Odoo ERP."
+            },
+            {
+                "q": "Do you have real-world industry and organizational experience?",
+                "a": "Yes! I interned at PT PLN (Persero) UP3 Gresik as a Data Analyst & Fullstack Developer, served as an Assistant Lecturer for Programming Language 2, led the Advocacy Department of HIMASIFO UPNVJT, and presented at the Sinergy International Conference 2026."
+            },
+            {
+                "q": "How can we reach out for opportunities or collaboration?",
+                "a": "You can use the contact form above or email me directly at yulianipurwitasari19@gmail.com, or connect via LinkedIn (yuliani-purwitasari) and GitHub (ririsariii)."
+            }
+        ]
+    },
+    "footer": {
+        "copyright": "All rights reserved.",
+        "madeWith": "Designed & Built with",
+        "more": "More",
+        "marquee": [
+            "Available for Opportunities",
+            "Data Science & NLP",
+            "Data Analytics & BI",
+            "Full-Stack Web Dev",
+            "Machine Learning",
+            "Dashboard Development"
+        ],
+        "cta": {
+            "title": "Let's Work",
+            "titleHighlight": "Together",
+            "subtitle": "Looking for a Data Scientist, Data Analyst, or Software Developer? Let's build meaningful solutions together."
+        },
+        "links": "LINKS",
+        "socials": "SOCIALS",
+        "localTime": "LOCAL TIME",
+        "version": "VERSION",
+        "versionEdition": "2026 © Edition"
+    },
+    "ctaSection": {
+        "title": "Let's Build Something",
+        "together": "Together",
+        "subtitle": "Passionate about turning data into insights and building meaningful digital solutions. Open to opportunities in Data Science, Analytics, and Software Development.",
+        "start": "Contact Me",
+        "work": "View My Resume",
+        "words": {
+            "amazing": "Insightful",
+            "innovative": "Data-Driven",
+            "intelligent": "Impactful",
+            "creative": "Meaningful"
+        },
+        "ribbon1": "Python • SQL • TensorFlow • Keras • IndoBERT • Flask • PHP • Laravel • Looker Studio • Power BI • MySQL • Odoo",
+        "ribbon2": "Data Scientist • Data Analyst • Business Intelligence • Machine Learning Engineer • Software Developer • Fullstack Web Developer • NLP & ABSA"
+    },
+    "stats": {
+        "systemStatus": "System Status: Portfolio Active",
+        "portfolio": "Profile Highlights",
+        "totalPulse": "Total Pulse",
+        "peakActivity": "Peak Activity",
+        "dailyAverage": "Daily Average",
+        "currentSprint": "Current Sprint",
+        "engageFlow": "Engage Flow",
+        "weeklyEffort": "Weekly Effort",
+        "processSpeed": "Process Speed",
+        "avgPerf": "Average Performance",
+        "latency": "GPA: 3.87 / 4.0",
+        "system": "BANGKIT SCORE: 96.8",
+        "scanning": "OPEN_FOR_OPPORTUNITIES",
+        "engineering": "PORTFOLIO",
+        "metrics": "METRICS",
+        "analyticsSub": "DATA SCIENCE / ANALYTICS / SOFTWARE DEVELOPMENT",
+        "statusOnline": "STATUS: AVAILABLE",
+        "loadStable": "DISTINCTION_GRADUATE"
+    },
+    "projectHeader": {
+        "title": "Turning Data Into Solutions",
+        "subtitle": "A curated showcase of <span class='font-bold text-foreground'>Data Science</span>, Machine Learning, Business Intelligence dashboards, and full-stack web & mobile applications."
+    },
+    "common": {
+        "loading": "Loading...",
+        "error": "Something went wrong",
+        "notFound": "Page not found",
+        "backHome": "Back to Home",
+        "viewMore": "View More",
+        "readMore": "Read More",
+        "close": "Close",
+        "download": "Download",
+        "share": "Share",
+        "scrollAudit": "Scroll to explore"
+    },
+    "technical": {
+        "github": {
+            "title": "GitHub Contributions",
+            "description": "My GitHub activity over the last year.",
+            "total": "Total",
+            "thisWeek": "This Week",
+            "best": "Best",
+            "average": "Average",
+            "less": "Less",
+            "more": "More"
+        },
+        "wakatime": {
+            "title": "WakaTime Stats",
+            "description": "Coding activity over the last 7 days.",
+            "lastUpdate": "Last Updated",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "dailyAverage": "Daily Average",
+            "totalWeek": "Total This Week",
+            "bestDay": "Best Day",
+            "totalSince": "Total Since Joined",
+            "topLanguages": "Top Languages"
+        }
+    },
+    "blog": {
+        "title": "Notes & Reflections",
+        "subtitle": "Documenting lessons from Aspect-Based Sentiment Analysis, Looker Studio BI dashboards, and Machine Learning projects.",
+        "sectionBadge": "The Project Journal",
+        "search": "Search articles...",
+        "readTime": "min read",
+        "readMore": "Read Post",
+        "back": "Back to Blog",
+        "noResults": "No articles found",
+        "categories": {
+            "applied-ai": "Applied ML & NLP",
+            "software-development": "BI & Web Dev",
+            "about-me": "Journey",
+            "more": "More"
+        }
+    },
+    "gallery": {
+        "title": "Visual Archive",
+        "subtitle": "A curated collection of internship, bootcamp, conference, and committee documentation.",
+        "filter": {
+            "all": "All Media",
+            "image": "Photos",
+            "video": "Videos"
+        },
+        "viewMedia": "View Media"
+    },
+    "chatbot": {
+        "title": "AI Assistant",
+        "subtitle": "Ask me about Sari",
+        "placeholder": "Type a message...",
+        "greeting": "Hi! I'm an AI assistant for **{name}** (Sari). 👋\n\nI can answer questions about:\n- Skills & technical expertise (Data Science, BI, Web Dev)\n- Projects & thesis work\n- Internship, Bangkit Academy & committee experience\n- Education & 32+ certifications\n\nAnything you'd like to ask?",
+        "suggestions": [
+            "What are Sari's main skills?",
+            "Tell me about her ABSA & Tanamore projects",
+            "What is her internship & Bangkit experience?",
+            "What awards and certifications does she have?"
+        ],
+        "error": "An error occurred. Please try again.",
+        "invalidResponse": "Invalid response from server.",
+        "unknownError": "An unknown error occurred.",
+        "retry": "Try again",
+        "inputHint": "Enter to send, Shift+Enter for newline",
+        "close": "Close chat"
+    }
+}
